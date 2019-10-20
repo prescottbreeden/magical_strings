@@ -9,12 +9,18 @@
   &__banner {
     margin: 1rem 0;
     display: flex;
+    justify-content: space-around;
   }
 
   &__img {
-    // max-width: 34%;
+    // max-width: 32%;
     height: auto;
+    border-radius: 3px;
     flex: 1;
+
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
   }
 
   &__performances {

@@ -4,13 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem;
+  padding: 2.5rem 0;
   z-index: 1000;
   // border: 1px dashed red;
 
   &__logo {
-    height: 7rem;
+    height: 8rem;
     width: auto;
+    // border: 1px dashed red;
 
     @include respond(tab-med) {
       height: 8rem;

@@ -3,6 +3,7 @@ import Performance from './Performance';
 import haydo from './../assets/HaydnKlangspiel.jpg';
 import jc from './../assets/JocelynColm.jpg';
 import philip from './../assets/PhilipBlue.jpg';
+import Video from './Video';
 
 const Event = props => {
   const { title, description, performances } = props;
@@ -28,6 +29,10 @@ const Event = props => {
           />
         </div>
         <p>{description}</p>
+        <Video
+          title="Magical Strings Dancers"
+          src="https://www.youtube-nocookie.com/embed/Lf6eR4A0Xdg"
+        />
         <div className="event__performances">
           <h3 className="event__performances-title">Upcoming Performances</h3>
           {performances &&

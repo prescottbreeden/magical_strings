@@ -1,0 +1,13 @@
+.about {
+  &__title {
+    color: $color-dark-green;
+    margin: 1rem 0;
+  }
+
+  &__blurb {
+    // width: 100%;
+    // display: inline-block;
+    word-spacing: 1px;
+    text-align: justify;
+  }
+}

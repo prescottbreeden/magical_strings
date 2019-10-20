@@ -10,20 +10,20 @@ const Performance = props => {
   return (
     <React.Fragment>
       <div className="performance">
-        <p className="performance__date-time performance--container">
+        <p className="performance__date-time performance--item">
           {generateDate(date, time)}
         </p>
-        <p className="performance__venue performance--container">{venue}</p>
+        <p className="performance__venue performance--item">{venue}</p>
         {ticketLink ? (
           <a
             target="blank"
-            className="performance__ticket-link performance--container"
+            className="performance__ticket-link performance--item"
             href={ticketLink}
           >
             Get Tickets!
           </a>
         ) : (
-          <p className="performance__ticket-link performance--container">
+          <p className="performance__ticket-link performance--item">
             Coming Soon!
           </p>
         )}

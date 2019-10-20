@@ -40,7 +40,7 @@ export const yuleTide = {
       date: '12/17/2019',
       time: '7:00pm',
       venue: 'Bellevue Theater at Maydenbauer',
-      ticketLink: '',
+      ticketLink: 'https://www.brownpapertickets.com/event/4415096',
     },
     {
       date: '12/18/2019',
