@@ -1,0 +1,27 @@
+.footer {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 1px dashed red;
+
+  & > * {
+    margin-bottom: 2rem;
+  }
+
+  &__info {
+    width: 70%;
+  }
+
+  &__link {
+    color: $color-light-green;
+    font: initial;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+
+    &:hover {
+      color: $color-dark-green;
+    }
+  }
+}
