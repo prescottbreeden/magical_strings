@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Hero from '../components/Hero';
+import About from '../components/About';
+import Upcoming from '../components/UpComming';
+import CallToAction from '../components/CallToAction';
 
 class Landing extends Component {
   state = {};
@@ -8,7 +11,8 @@ class Landing extends Component {
     return (
       <React.Fragment>
         <Hero />
-        Landing page...
+        <About />
+        <CallToAction />
       </React.Fragment>
     );
   }

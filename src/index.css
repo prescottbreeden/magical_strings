@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 *,
 *::after,
 *::before {
@@ -10,6 +11,12 @@
 html {
   box-sizing: border-box;
   padding-bottom: 2rem;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 120rem;
 }
 
 button::-moz-focus-inner {
@@ -48,11 +55,71 @@ body {
   margin-top: 1rem !important;
 }
 
+.event {
+  margin-top: 2rem;
+}
+.event__title {
+  color: #385600;
+  font-size: 4rem;
+}
+.event__banner {
+  margin: 1rem 0;
+  display: flex;
+}
+.event__img {
+  height: auto;
+  flex: 1;
+}
+.event__performances {
+  margin-top: 2rem;
+}
+.event__performances-title {
+  color: #385600;
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
 .hero__img {
   width: 100%;
 }
 
+.performance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  min-height: 8rem;
+  padding-left: 1rem;
+  background-color: rgba(115, 140, 49, 0.07);
+}
+.performance:hover {
+  min-height: 8rem;
+  border: 2px solid #385600;
+  padding-left: 1rem;
+}
+.performance--container {
+  width: 30%;
+}
+.performance__date-time {
+  width: 30%;
+}
+.performance__venue {
+  width: 50%;
+}
+.performance__ticket-link {
+  width: 20%;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+  text-decoration: none;
+  background-color: #738c31;
+  color: white;
+  text-align: center;
+}
+
 .footer {
+  margin-top: 5rem;
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -84,12 +151,10 @@ body {
   align-items: center;
   padding: 2.5rem;
   z-index: 1000;
-  border: 1px dashed red;
 }
 .header__logo {
-  height: 6rem;
+  height: 7rem;
   width: auto;
-  grid-area: logo;
 }
 @media only screen and (max-width: 65.625em) {
   .header__logo {
@@ -109,8 +174,6 @@ body {
   }
 }
 .header__nav--right {
-  grid-area: name;
-  text-align: right;
   color: #738c31;
 }
 @media only screen and (max-width: 65.625em) {
@@ -149,6 +212,35 @@ body {
 }
 .nav__link:hover {
   color: #385600;
+}
+
+.page__title {
+  color: #385600;
+}
+
+.page__cta {
+  height: 8rem;
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 3rem auto;
+}
+.page__cta--button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  background-color: #738c31;
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+.page__cta--button:hover {
+  background-color: #385600;
 }
 
 .harp-camp__hero {

@@ -11,6 +11,12 @@ html {
   padding-bottom: 2rem;
 }
 
+body {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 120rem;
+}
+
 button::-moz-focus-inner {
   border: 0;
 }

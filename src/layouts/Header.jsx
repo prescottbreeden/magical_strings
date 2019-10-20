@@ -9,6 +9,9 @@ const Header = props => {
         <img className="header__logo" src={logo} alt="logo" />
       </Link>
       <nav className="nav">
+        <Link className="nav__link" to="/">
+          Home
+        </Link>
         <Link className="nav__link" to="/events">
           Events
         </Link>

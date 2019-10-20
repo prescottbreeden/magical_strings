@@ -1,19 +1,22 @@
-@import 'abstracts/_functions';
-@import 'abstracts/_mixins';
-@import 'abstracts/_variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-@import 'base/_animations';
-@import 'base/_base';
-@import 'base/_typography';
-@import 'base/_utilities';
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
 
+@import 'components/event';
 @import 'components/hero';
+@import 'components/performance';
 
-@import 'layouts/_footer';
-@import 'layouts/_header';
-@import 'layouts/_navigation';
+@import 'layouts/footer';
+@import 'layouts/header';
+@import 'layouts/navigation';
+@import 'layouts/page';
 
-@import 'pages/_home';
-@import 'pages/_harp-camp';
-@import 'pages/_register';
-@import 'pages/_payment';
+@import 'pages/home';
+@import 'pages/harp-camp';
+@import 'pages/register';
+@import 'pages/payment';

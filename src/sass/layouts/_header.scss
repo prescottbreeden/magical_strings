@@ -3,28 +3,14 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  // display: grid;
-  // grid-gap: 1.5rem;
-  // grid-template-areas: "logo nav name" ;
   align-items: center;
   padding: 2.5rem;
   z-index: 1000;
-  border: 1px dashed red;
-
-  // @include respond(tab-med) {
-  //   grid-template-areas:  "logo name"
-  //                         "nav  nav";
-  // }
-
-  // @include respond(tab-port) {
-  //   grid-template-areas:  "logo"
-  //                         "nav ";
-  // }
+  // border: 1px dashed red;
 
   &__logo {
-    height: 6rem;
+    height: 7rem;
     width: auto;
-    grid-area: logo;
 
     @include respond(tab-med) {
       height: 8rem;
@@ -42,8 +28,7 @@
 
   &__nav {
     &--right {
-      grid-area: name;
-      text-align: right;
+      // text-align: right;
       color: $color-light-green;
 
       @include respond(tab-med) {

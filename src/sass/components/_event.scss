@@ -1,0 +1,29 @@
+.event {
+  margin-top: $default-margin-top;
+
+  &__title {
+    color: $color-dark-green;
+    font-size: 4rem;
+  }
+
+  &__banner {
+    margin: 1rem 0;
+    display: flex;
+  }
+
+  &__img {
+    // max-width: 34%;
+    height: auto;
+    flex: 1;
+  }
+
+  &__performances {
+    margin-top: $default-margin-top;
+
+    &-title {
+      color: $color-dark-green;
+      padding: 1rem 0;
+      font-size: 3rem;
+    }
+  }
+}
