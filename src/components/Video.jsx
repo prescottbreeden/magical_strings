@@ -2,6 +2,7 @@ import React from 'react';
 
 const Video = props => {
   const { src, title } = props;
+
   return (
     <React.Fragment>
       <div className="video">
@@ -9,10 +10,10 @@ const Video = props => {
           className="video__iframe"
           title={title}
           src={src}
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+          allowFullScreen
+        />
       </div>
     </React.Fragment>
   );

@@ -5,7 +5,7 @@ const Hero = props => {
   return (
     <React.Fragment>
       <img
-        class="hero__img"
+        className="hero__img"
         src={groupPhoto}
         alt="Magical Strings Celtic Yuletide"
       />

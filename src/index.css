@@ -134,15 +134,30 @@ body {
   text-align: center;
 }
 
-.video {
-  margin-top: 2rem;
+.under-construction {
   text-align: center;
+}
+.under-construction__img {
+  margin: 5rem;
+}
+
+.video {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 3rem;
 }
 .video__iframe {
   margin: 0 auto;
-  width: 560px;
-  height: 315px;
   border-radius: 3px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  height: 50rem;
+  width: 89.1rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .video__iframe {
+    width: 40rem;
+    height: 22.2rem;
+  }
 }
 
 .footer {

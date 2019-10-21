@@ -7,9 +7,12 @@ class Events extends Component {
     events: [yuleTide],
   };
 
+  componentDidMount = () => window.scrollTo(0, 0);
+
   render() {
     return (
       <React.Fragment>
+        <div ref={this.myRef}></div>
         {this.state.events.map(event => (
           <Event
             key={event.key}
