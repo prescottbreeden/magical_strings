@@ -10,7 +10,7 @@ const Video = props => {
           title={title}
           src={src}
           frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </div>

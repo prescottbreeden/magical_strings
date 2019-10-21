@@ -1,6 +1,6 @@
 export const yuleTide = {
   key: 'yuletide',
-  title: 'Celtic Yuletide Celebration',
+  title: '41st Annual Celtic Yuletide Celebration',
   description:
     "Three generations of the Boulding family will set the stage ablaze once again with the Tara Academy Irish Dancers, lively fiddling of Jocelyn Pettit, soulful songs with brilliant Dublin guitarist Colm MacCarthaigh and dynamic percussionist Matt Jerrell. Philip and Pam's Celtic harp and hammered dulcimer will sing mysteries from ancient Ireland and beyond augmented by cello, violin, whistles, accordion and concertina. This festive gala of music, dance, storytelling, juggling, and songs of the season brings warmth and joy into the heart of winter.",
   performances: [
