@@ -4,3 +4,20 @@
 .u-sm-margin-top {
   margin-top: 1rem !important;
 }
+
+.u-italic {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.u-section-break {
+  margin-bottom: 8rem;
+
+  &--small {
+    margin-bottom: 5rem;
+  }
+}
+
+.u-subtitle {
+  font-size: 2.4rem;
+}

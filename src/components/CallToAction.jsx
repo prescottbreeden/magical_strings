@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CallToAction = props => {
+const CallToAction = () => {
   return (
     <React.Fragment>
       <div className="page__cta">
+        <Link className="page__cta--button" to="/classes">
+          Upcoming Classes
+        </Link>
         <Link className="page__cta--button" to="/events">
-          Join us at Celtic Yuletide 2019!
+          Upcoming Events
         </Link>
       </div>
     </React.Fragment>

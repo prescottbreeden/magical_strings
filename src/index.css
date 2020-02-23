@@ -55,6 +55,22 @@ body {
   margin-top: 1rem !important;
 }
 
+.u-italic {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.u-section-break {
+  margin-bottom: 8rem;
+}
+.u-section-break--small {
+  margin-bottom: 5rem;
+}
+
+.u-subtitle {
+  font-size: 2.4rem;
+}
+
 .about__title {
   color: #385600;
   margin: 1rem 0;
@@ -63,6 +79,30 @@ body {
 .about__blurb {
   word-spacing: 1px;
   text-align: justify;
+}
+
+.class {
+  margin-top: 2rem;
+}
+.class__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .class__info {
+    width: 100%;
+  }
+}
+.class__info--class {
+  width: 55rem;
+}
+.class__title {
+  font-weight: bold;
+  color: #385600;
 }
 
 .event {
@@ -262,15 +302,12 @@ body {
 .page__cta {
   height: 8rem;
   width: 100%;
-  display: block;
+  display: flex;
+  justify-content: space-around;
   position: relative;
   margin: 3rem auto;
 }
 .page__cta--button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: inline-block;
   padding: 1.5rem 5rem;
   background-color: #738c31;

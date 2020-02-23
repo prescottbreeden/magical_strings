@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import CallToAction from '../components/CallToAction';
+import groupPhoto from './../assets/MagicalStringsGroup.jpg';
 
 class Landing extends Component {
   state = {};
@@ -9,7 +10,7 @@ class Landing extends Component {
   render() {
     return (
       <React.Fragment>
-        <Hero />
+        <Hero photo={groupPhoto} alt="Magical Strings Yuletide family" />
         <About />
         <CallToAction />
       </React.Fragment>

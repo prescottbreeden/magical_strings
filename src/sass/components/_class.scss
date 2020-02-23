@@ -1,0 +1,31 @@
+.class {
+  margin-top: $default-margin-top;
+
+  &__container {
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+
+    @include respond(phone) {
+      width: 100%;
+    }
+
+    &--class {
+      width: 55rem;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    color: $color-dark-green;
+  }
+
+  &__details {
+  }
+}

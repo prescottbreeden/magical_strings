@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const RefactorMe = props => {
+export const RefactorMe = () => {
   return (
-    <React.Fragment>
+    <>
       <h4>Join us!</h4>
       <table border="1" cellspacing="0" cellpadding="0">
         <tr align="center">
@@ -175,6 +175,6 @@ export const RefactorMe = props => {
           </td>
         </tr>
       </table>
-    </React.Fragment>
+    </>
   );
 };

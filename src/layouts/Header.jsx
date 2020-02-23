@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './../assets/MS Header1.gif';
 import { Link } from 'react-router-dom';
 
-const Header = props => {
+const Header = () => {
   return (
     <div className="header">
       <Link to="/">
@@ -11,6 +11,9 @@ const Header = props => {
       <nav className="nav">
         <Link className="nav__link" to="/">
           Home
+        </Link>
+        <Link className="nav__link" to="/classes">
+          Classes
         </Link>
         <Link className="nav__link" to="/events">
           Events
