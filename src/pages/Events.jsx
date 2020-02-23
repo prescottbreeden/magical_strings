@@ -16,9 +16,7 @@ class Events extends Component {
       <React.Fragment>
         <div ref={this.myRef}></div>
         <section className="event">
-          <h2 className="event__title">
-            Magical Strings Events and Performances
-          </h2>
+          <h2 className="event__title">Upcomming Events and Performances</h2>
           <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" />
           {this.state.events.map(event => (
             <>

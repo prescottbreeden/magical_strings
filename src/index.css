@@ -23,6 +23,14 @@ button::-moz-focus-inner {
   border: 0;
 }
 
+a {
+  color: #385600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
@@ -69,6 +77,10 @@ body {
 
 .u-subtitle {
   font-size: 2.4rem;
+}
+
+.u-bold {
+  font-weight: bold;
 }
 
 .about__title {
@@ -154,14 +166,19 @@ body {
   border: 2px solid #385600;
   padding-left: 1rem;
 }
-.performance--item {
-  width: 30%;
+.performance__details {
+  width: 50% !important;
 }
-.performance__date-time {
-  width: 30%;
+.performance--directions {
+  margin: 0 1rem;
 }
-.performance__venue {
-  width: 50%;
+.performance__group {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.performance__venue-details {
+  font-size: 1.6rem;
 }
 .performance__ticket-link {
   width: 20%;
@@ -172,6 +189,17 @@ body {
   background-color: #738c31;
   color: white;
   text-align: center;
+}
+.performance__ticket-link--outline {
+  width: 20%;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+  text-decoration: none;
+  background-color: #fff;
+  color: #385600;
+  text-align: center;
+  border: 1px solid #385600;
 }
 
 .under-construction {

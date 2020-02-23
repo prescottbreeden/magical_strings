@@ -7,26 +7,47 @@ export const stPatricks = {
     {
       date: '3/7/2020',
       time: '7:30pm',
-      venue: 'Tim Noah Thumbnail Theater (Snohomish, WA)',
-      ticketLink: '',
+      venue: 'Tim Noah Thumbnail Theater',
+      ticketLink: 'https://www.brownpapertickets.com/event/4510397',
+      details: {
+        location: 'Snohomish, WA',
+        googleMaps: 'https://goo.gl/maps/EwntrwCdRckiiVMQ6',
+        ticketInfo: 'Order tickets online.',
+      },
     },
     {
       date: '3/8/2020',
       time: '3:00pm',
-      venue: 'Nichols Community Center (Fox Island, WA) *',
-      ticketLink: '',
+      venue: 'Nichols Community Center',
+      ticketLink: 'special',
+      details: {
+        location: 'Fox Island, WA',
+        googleMaps: 'https://goo.gl/maps/1qWbDxnL2YwHFD2a9',
+        ticketInfo: 'Tickets available at the door.',
+      },
     },
     {
       date: '3/14/2020',
       time: '7:30pm',
-      venue: 'Kenyon Hall (West Seattle)',
-      ticketLink: '',
+      venue: 'Kenyon Hall',
+      ticketLink: 'special',
+      details: {
+        location: 'West Seattle, WA',
+        googleMaps: 'https://goo.gl/maps/ZQsVnVRPuw6PjigQA',
+        ticketInfo:
+          'Contact venue: 206 937 3613 | kenyonhall [at] earthlink.net',
+      },
     },
     {
       date: '3/15/2020',
       time: '7:30pm',
-      venue: 'First Presbyterian Church (Port Townsend, WA)',
-      ticketLink: '',
+      venue: 'First Presbyterian Church',
+      ticketLink: 'special',
+      details: {
+        location: 'Port Townsend, WA',
+        googleMaps: 'https://goo.gl/maps/KxQ4ypBLemQbMuiK8',
+        ticketInfo: 'Contact us for additional information.',
+      },
     },
   ],
 };

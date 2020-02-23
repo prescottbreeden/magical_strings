@@ -16,16 +16,26 @@
     padding-left: 1rem;
   }
 
-  &--item {
-    width: 30%;
+  &__details {
+    width: 50% !important;
+  }
+
+  &--directions {
+    margin: 0 1rem;
   }
 
   &__date-time {
-    width: 30%;
   }
 
-  &__venue {
-    width: 50%;
+  &__group {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    // border: 1px dashed red;
+  }
+
+  &__venue-details {
+    font-size: 1.6rem;
   }
 
   &__ticket-link {
@@ -37,5 +47,17 @@
     background-color: $color-light-green;
     color: white;
     text-align: center;
+
+    &--outline {
+      width: 20%;
+      padding: 1rem 2rem;
+      border-radius: 3px;
+      margin-right: 1rem;
+      text-decoration: none;
+      background-color: $color-white;
+      color: $color-dark-green;
+      text-align: center;
+      border: 1px solid $color-dark-green;
+    }
   }
 }
