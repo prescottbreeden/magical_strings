@@ -1,6 +1,5 @@
 .nav {
-  // border: 1px dashed green;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 
@@ -14,7 +13,6 @@
     font-size: 1.8rem;
     color: $default-font-color;
     transition: color 0.2s;
-    // border: 1px dashed blue;
     padding: 1rem;
 
     // @include respond(tab-med) {
@@ -23,9 +21,9 @@
     // }
 
     // @include respond(tab-port) {
-    //   text-align: center;
     //   font-size: 1.8rem;
     // }
+
     @include respond(phone) {
       // text-align: center;
       font-size: 1.5rem;

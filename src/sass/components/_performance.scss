@@ -2,40 +2,62 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // border: 1px solid $color-dark-green;
   border: 2px solid transparent;
   border-radius: 3px;
-  // margin-top: 3rem;
   min-height: 8rem;
-  padding-left: 1rem;
+  padding: 1rem;
   background-color: $bg-light-green;
+
+  @include respond(phone) {
+    justify-content: center;
+    margin-bottom: 1rem;
+    border: 1px solid $color-dark-green;
+    flex-direction: column;
+    font-size: 1.6rem;
+  }
 
   &:hover {
     min-height: 8rem;
     border: 2px solid $color-dark-green;
-    padding-left: 1rem;
-  }
 
-  &__details {
-    width: 50% !important;
+    @include respond(phone) {
+      border: 1px solid $color-dark-green;
+    }
   }
 
   &--directions {
     margin: 0 1rem;
   }
 
-  &__date-time {
+  &__details {
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+
+    @include respond(phone) {
+      width: 100% !important;
+    }
+  }
+
+  &__venue-details {
+    font-size: 1.6rem;
   }
 
   &__group {
     display: flex;
     flex-direction: column;
     width: 25%;
-    // border: 1px dashed red;
-  }
 
-  &__venue-details {
-    font-size: 1.6rem;
+    @include respond(tab-port) {
+      font-size: 1.8rem;
+    }
+
+    @include respond(phone) {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 1.6rem;
+    }
   }
 
   &__ticket-link {
@@ -48,6 +70,11 @@
     color: white;
     text-align: center;
 
+    @include respond(phone) {
+      margin-top: 1rem;
+      width: 100%;
+    }
+
     &--outline {
       width: 20%;
       padding: 1rem 2rem;
@@ -58,6 +85,11 @@
       color: $color-dark-green;
       text-align: center;
       border: 1px solid $color-dark-green;
+
+      @include respond(phone) {
+        margin-top: 1rem;
+        width: 100%;
+      }
     }
   }
 }

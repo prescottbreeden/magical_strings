@@ -20,6 +20,10 @@
 
 .u-subtitle {
   font-size: 2.4rem;
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
 }
 
 .u-bold {

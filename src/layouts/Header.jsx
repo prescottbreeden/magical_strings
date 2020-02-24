@@ -1,32 +1,43 @@
 import React from 'react';
 import logo from './../assets/MS Header1.gif';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const activeStyles = {
+    backgroundColor: '#738c31',
+    borderRadius: '3px',
+    color: 'white',
+  };
+
   return (
     <div className="header">
-      <Link to="/">
+      <NavLink to="/">
         <img className="header__logo" src={logo} alt="logo" />
-      </Link>
+      </NavLink>
       <nav className="nav">
-        <Link className="nav__link" to="/">
-          Home
-        </Link>
-        <Link className="nav__link" to="/classes">
+        <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
           Classes
-        </Link>
-        <Link className="nav__link" to="/events">
+        </NavLink>
+        <NavLink className="nav__link" to="/events" activeStyle={activeStyles}>
           Events
-        </Link>
-        <Link className="nav__link" to="/harpshop">
+        </NavLink>
+        <NavLink
+          className="nav__link"
+          to="/harpshop"
+          activeStyle={activeStyles}
+        >
           Harp Shop
-        </Link>
-        <Link className="nav__link" to="/recordings">
+        </NavLink>
+        <NavLink
+          className="nav__link"
+          to="/recordings"
+          activeStyle={activeStyles}
+        >
           Recordings
-        </Link>
-        <Link className="nav__link" to="/contact">
+        </NavLink>
+        <NavLink className="nav__link" to="/contact" activeStyle={activeStyles}>
           Contact
-        </Link>
+        </NavLink>
       </nav>
       {/* <h4 className="header__nav--right">Celtic Yuletide Tickets On-Sale Now!</h4> */}
     </div>

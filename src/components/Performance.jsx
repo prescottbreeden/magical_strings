@@ -14,12 +14,13 @@ const Performance = props => {
           <p>{details.location}</p>
           <p>{generateDate(date, time)}</p>
         </div>
-        <div className="performance__group performance__details">
-          <p>
+        <div className="performance__details">
+          <p className="performance__venue-details">
             {venue}
             <a className="performance--directions" href={details.googleMaps}>
-              (map)
-            </a>
+              {' '}
+              (map){' '}
+            </a>{' '}
           </p>
           <p className="performance__venue-details">{details.ticketInfo}</p>
         </div>
