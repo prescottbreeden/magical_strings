@@ -7,10 +7,8 @@ const Contact = props => {
     <>
       <h2 className="event__title">Contact Us</h2>
       <div className="performance u-padding">
-        <p className="event__performances-title">Phone: 253 857-3716</p>
-        <p className="event__performances-title">
-          Email: info [at] magicalstrings.com
-        </p>
+        <p className="contact__info">Phone: 253 857-3716</p>
+        <p className="contact__info">Email: info [at] magicalstrings.com</p>
       </div>
       <Hero photo={contactPhoto} alt="Magical Strings" />
     </>
