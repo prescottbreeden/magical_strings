@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import CallToAction from '../components/CallToAction';
-import groupPhoto from './../assets/MagicalStringsGroup.jpg';
+import groupPhoto from './../assets/MagicalStringsGroup_opt.jpg';
 
 class Landing extends Component {
   state = {};

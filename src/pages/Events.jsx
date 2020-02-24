@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Event from '../components/Event';
 import { stPatricks, yuleTide } from '../constants/performances';
-import eventsPhoto from './../assets/ms_events.bmp';
+import eventsPhoto from './../assets/ms_events_opt.jpg';
 import Hero from '../components/Hero';
 
 class Events extends Component {
@@ -17,7 +17,7 @@ class Events extends Component {
         <div ref={this.myRef}></div>
         <section className="event">
           <h2 className="event__title">Upcomming Events and Performances</h2>
-          <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" />
+          <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" small />
           {this.state.events.map(event => (
             <>
               <Event

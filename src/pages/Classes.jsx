@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../components/Hero';
-import philip from './../assets/img_dump/IMG_2146.jpg';
+import philip from './../assets/philip_harps_opt.jpg';
 
 class Classes extends Component {
   componentDidMount = () => window.scrollTo(0, 0);
