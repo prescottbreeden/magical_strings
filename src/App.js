@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 import Classes from './pages/Classes';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
@@ -13,7 +13,7 @@ import Footer from './layouts/Footer';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Route path="/" exact component={Landing} />
         <Route path="/classes" exact component={Classes} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/harpshop" exact component={HarpShop} />
         <Route path="/recordings" component={Recordings} />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
