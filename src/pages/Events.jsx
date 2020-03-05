@@ -13,24 +13,21 @@ class Events extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <div ref={this.myRef}></div>
-        <section className="event">
-          <h2 className="event__title">Upcomming Events and Performances</h2>
-          <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" small />
-          {this.state.events.map(event => (
-            <>
-              <Event
-                key={event.key}
-                title={event.title}
-                description={event.description}
-                performances={event.performances}
-              />
-              <div className="u-section-break" />
-            </>
-          ))}
-        </section>
-      </React.Fragment>
+      <>
+        <h2 className="page__title">Events and Performances</h2>
+        <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" small />
+        {this.state.events.map(event => (
+          <>
+            <Event
+              key={event.key}
+              title={event.title}
+              description={event.description}
+              performances={event.performances}
+            />
+            <div className="u-section-break" />
+          </>
+        ))}
+      </>
     );
   }
 }

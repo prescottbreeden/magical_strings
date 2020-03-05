@@ -8,10 +8,8 @@ class Classes extends Component {
   render() {
     return (
       <>
-        <section className="event">
-          <h2 className="event__title">School of Magical Strings</h2>
-          <Hero photo={philip} alt="Philip Boulidng with Harps" />
-        </section>
+        <h2 className="page__title">School of Magical Strings</h2>
+        <Hero photo={philip} alt="Philip Boulidng with Harps" />
         <div className="class">
           <h2 className="event__title">
             Beginning and Intermediate Classes in Celtic Harp

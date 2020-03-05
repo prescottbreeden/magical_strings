@@ -26,7 +26,7 @@ const Header = () => {
           to="/harpshop"
           activeStyle={activeStyles}
         >
-          Harp Shop
+          Instruments
         </NavLink>
         <NavLink
           className="nav__link"

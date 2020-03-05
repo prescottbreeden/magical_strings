@@ -192,7 +192,7 @@ body {
   border-radius: 3px;
 }
 .hero__img--small {
-  width: 50% !important;
+  max-width: 50rem !important;
 }
 
 .performance {
@@ -400,6 +400,16 @@ body {
     text-align: center;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .nav {
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+    background-color: rgba(51, 51, 51, 0.9);
+    width: 100%;
+  }
+}
 .nav__link {
   text-decoration: none;
   letter-spacing: 1px;
@@ -410,15 +420,30 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .nav__link {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
   }
 }
 .nav__link:hover {
   color: #385600;
 }
+@media only screen and (max-width: 37.5em) {
+  .nav__link:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
 
 .page__title {
+  margin-top: 2rem;
   color: #385600;
+  font-size: 4rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .page__title {
+    margin-top: 0;
+    font-size: 2.8rem;
+  }
 }
 
 .page__cta {

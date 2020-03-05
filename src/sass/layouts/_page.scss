@@ -1,6 +1,13 @@
 .page {
   &__title {
+    margin-top: $default-margin-top;
     color: $color-dark-green;
+    font-size: 4rem;
+
+    @include respond(phone) {
+      margin-top: 0;
+      font-size: 2.8rem;
+    }
   }
 
   &__cta {
