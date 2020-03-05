@@ -39,7 +39,7 @@ export const stPatricks = {
     },
     {
       date: '3/15/2020',
-      time: '7:30pm',
+      time: '3:30pm',
       venue: 'First Presbyterian Church',
       ticketLink: 'https://www.brownpapertickets.com/event/4538842',
       details: {
