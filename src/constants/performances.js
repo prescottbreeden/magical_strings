@@ -19,11 +19,11 @@ export const stPatricks = {
       date: '3/8/2020',
       time: '3:00pm',
       venue: 'Nichols Community Center',
-      ticketLink: 'special',
+      ticketLink: 'http://ficra.org/magicalstrings2020.htm',
       details: {
         location: 'Fox Island, WA',
         googleMaps: 'https://goo.gl/maps/1qWbDxnL2YwHFD2a9',
-        ticketInfo: 'Tickets available at the door.',
+        ticketInfo: 'Limited availability.',
       },
     },
     {
@@ -34,19 +34,18 @@ export const stPatricks = {
       details: {
         location: 'West Seattle, WA',
         googleMaps: 'https://goo.gl/maps/ZQsVnVRPuw6PjigQA',
-        ticketInfo:
-          'Contact venue: 206 937 3613 | kenyonhall [at] earthlink.net',
+        ticketInfo: 'Contact venue: 206 937 3613 | kenyonhall@earthlink.net',
       },
     },
     {
       date: '3/15/2020',
       time: '7:30pm',
       venue: 'First Presbyterian Church',
-      ticketLink: 'special',
+      ticketLink: 'https://www.brownpapertickets.com/event/4538842',
       details: {
         location: 'Port Townsend, WA',
         googleMaps: 'https://goo.gl/maps/KxQ4ypBLemQbMuiK8',
-        ticketInfo: 'Contact us for additional information.',
+        ticketInfo: 'Order tickets online.',
       },
     },
   ],
