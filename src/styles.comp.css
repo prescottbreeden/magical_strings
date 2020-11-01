@@ -140,6 +140,16 @@ body {
   color: #385600;
 }
 
+.contact__info {
+  color: #385600;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .contact__info {
+    font-size: 2rem;
+  }
+}
+
 .event {
   margin-top: 2rem;
 }
@@ -412,12 +422,16 @@ body {
 }
 
 .page__cta {
-  height: 8rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  position: relative;
   margin: 3rem auto;
+}
+@media only screen and (max-width: 37.5em) {
+  .page__cta {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .page__cta--button {
   display: inline-block;
@@ -434,7 +448,12 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .page__cta--button {
+    text-align: center;
+    width: 100%;
     font-size: 2rem;
+  }
+  .page__cta--button:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
 
