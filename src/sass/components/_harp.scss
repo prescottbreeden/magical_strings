@@ -1,0 +1,31 @@
+.harp {
+  &__header {
+    border-bottom: 2px solid $color-dark-green;
+    color: $color-dark-green;
+    margin-bottom: 1rem;
+  }
+
+  &__photo {
+    min-width: 40%;
+    max-width: 40%;
+    height: auto;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__details {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__sub-heading {
+    color: $color-dark-green;
+  }
+
+  &__description {
+  }
+}

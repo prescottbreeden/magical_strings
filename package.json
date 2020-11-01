@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "global": "^4.4.0",
+    "ramda": "^0.27.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router": "^5.1.2",

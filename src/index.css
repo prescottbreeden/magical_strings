@@ -93,6 +93,18 @@ body {
   border-radius: 3px !important;
 }
 
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .about__title {
   color: #385600;
   margin: 1rem 0;
@@ -182,6 +194,33 @@ body {
   color: #385600;
   padding: 1rem 0;
   font-size: 3rem;
+}
+
+.harp__header {
+  border-bottom: 2px solid #385600;
+  color: #385600;
+  margin-bottom: 1rem;
+}
+
+.harp__photo {
+  min-width: 40%;
+  max-width: 40%;
+  height: auto;
+}
+
+.harp__info {
+  display: flex;
+}
+
+.harp__details {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.harp__sub-heading {
+  color: #385600;
 }
 
 .hero {
@@ -484,7 +523,6 @@ body {
 
 .harp-camp__hero {
   height: 50rem;
-  background-image: url('/src/assets/IMG_2146.jpg');
   background-size: cover;
   background-position: 0 -3rem;
   background-repeat: no-repeat;

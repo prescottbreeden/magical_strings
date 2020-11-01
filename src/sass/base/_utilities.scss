@@ -34,3 +34,15 @@
   padding: 1rem !important;
   border-radius: 3px !important;
 }
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
