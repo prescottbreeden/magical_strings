@@ -28,4 +28,23 @@
 
   &__description {
   }
+
+  &__item {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+    &--title {
+      width: 10rem;
+    }
+
+    &--value {
+      text-align: right;
+      width: 20rem;
+    }
+  }
+
+  &__fine-print {
+    font-size: 1.6rem;
+  }
 }

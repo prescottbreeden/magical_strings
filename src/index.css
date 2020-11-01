@@ -223,6 +223,23 @@ body {
   color: #385600;
 }
 
+.harp__item {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.harp__item--title {
+  width: 10rem;
+}
+.harp__item--value {
+  text-align: right;
+  width: 20rem;
+}
+
+.harp__fine-print {
+  font-size: 1.6rem;
+}
+
 .hero {
   width: 100%;
 }
