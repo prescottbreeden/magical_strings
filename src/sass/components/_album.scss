@@ -1,0 +1,10 @@
+.album {
+  margin-right: 1rem;
+  background: url(./assets/loading.gif) center center no-repeat;
+
+  &__iframe {
+    border: 0;
+    width: 35rem;
+    height: 60rem;
+  }
+}

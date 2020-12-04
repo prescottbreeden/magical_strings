@@ -5,12 +5,17 @@ const CallToAction = () => {
   return (
     <React.Fragment>
       <div className="page__cta">
-        <Link className="page__cta--button" to="/classes">
-          Upcoming Classes
-        </Link>
         <Link className="page__cta--button" to="/events">
           Upcoming Events
         </Link>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="page__cta--button"
+          href="https://www.facebook.com/MagicalStrings"
+        >
+          Visit us on Facebook
+        </a>
       </div>
     </React.Fragment>
   );

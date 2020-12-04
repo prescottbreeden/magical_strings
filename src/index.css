@@ -103,6 +103,16 @@ body {
   text-align: justify;
 }
 
+.album {
+  margin-right: 1rem;
+  background: url(./assets/loading.gif) center center no-repeat;
+}
+.album__iframe {
+  border: 0;
+  width: 35rem;
+  height: 60rem;
+}
+
 .class {
   margin-top: 2rem;
 }
@@ -611,6 +621,13 @@ body {
 .harp-camp__success a {
   display: inline-block;
   margin-top: 2rem;
+}
+
+.recordings {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .register__cta {

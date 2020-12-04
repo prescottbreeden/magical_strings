@@ -15,11 +15,15 @@ const Header = () => {
         <img className="header__logo" src={logo} alt="logo" />
       </NavLink>
       <nav className="nav">
-        <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
-          Classes
-        </NavLink>
         <NavLink className="nav__link" to="/events" activeStyle={activeStyles}>
           Events
+        </NavLink>
+        <NavLink
+          className="nav__link"
+          to="/recordings"
+          activeStyle={activeStyles}
+        >
+          Recordings
         </NavLink>
         <NavLink
           className="nav__link"
@@ -28,12 +32,8 @@ const Header = () => {
         >
           Harp Shop
         </NavLink>
-        <NavLink
-          className="nav__link"
-          to="/recordings"
-          activeStyle={activeStyles}
-        >
-          Recordings
+        <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
+          Classes
         </NavLink>
         <NavLink className="nav__link" to="/contact" activeStyle={activeStyles}>
           Contact
