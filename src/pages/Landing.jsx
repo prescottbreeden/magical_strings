@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import CallToAction from '../components/CallToAction';
 import groupPhoto from './../assets/MagicalStringsGroup_opt.jpg';
 
-class Landing extends Component {
-  state = {};
-
-  render() {
-    return (
-      <React.Fragment>
-        <Hero photo={groupPhoto} alt="Magical Strings Yuletide family" />
-        <About />
-        <CallToAction />
-      </React.Fragment>
-    );
-  }
-}
+const Landing = () => {
+  return (
+    <React.Fragment>
+      <Hero photo={groupPhoto} alt="Magical Strings Yuletide family" />
+      <About />
+      <CallToAction />
+    </React.Fragment>
+  );
+};
 
 export default Landing;
