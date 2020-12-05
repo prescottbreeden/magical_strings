@@ -8,7 +8,7 @@ const Footer = () => {
       <FooterLogo />
       <div style={{ height: '2rem' }} />
       <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="45YXNQEGKXVCS" />
+        <input type="hidden" name="hosted_button_id" value="HX24WQ9GWN6ZS" />
         <input
           type="image"
           src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"

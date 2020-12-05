@@ -20,6 +20,9 @@ const Event = props => {
             </p>
           )}
         </div>
+        <p className="u-italic">
+          * All times are in PST (Pacific Standard Time)
+        </p>
         <div className="u-section-break" />
         <hr />
       </section>
