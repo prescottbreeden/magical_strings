@@ -1,3 +1,6 @@
+.u-color-green {
+  color: $color-dark-green;
+}
 .u-left-align {
   text-align: left !important;
 }
@@ -25,6 +28,11 @@
     font-size: 2rem;
   }
 }
+.u-star {
+  font-size: 1.6rem;
+  font-style: italic;
+  vertical-align: super;
+}
 
 .u-bold {
   font-weight: bold;
@@ -33,4 +41,8 @@
 .u-padding {
   padding: 1rem !important;
   border-radius: 3px !important;
+}
+
+.u-underline {
+  text-decoration: underline;
 }

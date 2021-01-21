@@ -55,6 +55,10 @@ body {
   font-size: 2rem;
 }
 
+.u-color-green {
+  color: #385600;
+}
+
 .u-left-align {
   text-align: left !important;
 }
@@ -84,6 +88,12 @@ body {
   }
 }
 
+.u-star {
+  font-size: 1.6rem;
+  font-style: italic;
+  vertical-align: super;
+}
+
 .u-bold {
   font-weight: bold;
 }
@@ -91,6 +101,10 @@ body {
 .u-padding {
   padding: 1rem !important;
   border-radius: 3px !important;
+}
+
+.u-underline {
+  text-decoration: underline;
 }
 
 .about__title {
@@ -135,7 +149,7 @@ body {
   }
 }
 .class__info--class {
-  width: 55rem;
+  width: 65rem;
 }
 @media only screen and (max-width: 37.5em) {
   .class__info--class {
