@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Hero from '../components/Hero';
 import philip from './../assets/philip_harps_opt.jpg';
-import data from '../constants/classes.json';
+import { generalClassInfo, session } from '../constants/classes.json';
 
 <p className="u-italic">10 minutes from Southworth ferry.</p>;
 class Classes extends Component {
   componentDidMount = () => window.scrollTo(0, 0);
 
   render() {
-    const { classes, session } = data;
-    console.log(session);
     return (
       <>
         <section className="event">
@@ -17,7 +15,7 @@ class Classes extends Component {
           <Hero photo={philip} alt="Philip Boulidng with Harps" />
           <div className="class">
             <h2 className="event__title">
-              {classes.name} &#8212; {classes.term}
+              {generalClassInfo.name} &#8212; {generalClassInfo.term}
             </h2>
           </div>
           <div className="class__container">
@@ -25,21 +23,21 @@ class Classes extends Component {
               <div className="class__info">
                 <h3 className="u-subtitle">When:</h3>
                 <h3 className="u-subtitle">
-                  {classes.start} &#8212; {classes.end}
+                  {generalClassInfo.start} &#8212; {generalClassInfo.end}
                 </h3>
               </div>
               <div className="class__info">
                 <h3 className="u-subtitle">Where:</h3>
-                <h3 className="u-subtitle">{classes.where}</h3>
+                <h3 className="u-subtitle">{generalClassInfo.where}</h3>
               </div>
               <div className="class__info">
                 <h3 className="u-subtitle">Duration:</h3>
-                <h3 className="u-subtitle">{classes.duration}</h3>
+                <h3 className="u-subtitle">{generalClassInfo.duration}</h3>
               </div>
               <div className="class__info">
                 <h3 className="u-subtitle">Fee:</h3>
                 <h3 className="u-subtitle">
-                  {classes.fee}
+                  {generalClassInfo.fee}
                   <span className="u-star">*</span>
                 </h3>
               </div>
@@ -49,7 +47,7 @@ class Classes extends Component {
                 <span className="u-bold u-underline u-color-green">
                   six-week
                 </span>{' '}
-                term is {classes.fee}
+                term is {generalClassInfo.fee}
               </p>
             </div>
             <div className="u-section-break--small" />

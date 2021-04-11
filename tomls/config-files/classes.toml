@@ -1,6 +1,6 @@
 name = "classes"
 
-[classes]
+[generalClassInfo]
 name = "Virtual Harp Classes"
 term = "Spring Term 2021"
 start = "April 13th"
@@ -8,6 +8,8 @@ end = "???"
 where = "Virtually on Zoom"
 duration = "1 hr/week (6weeks)"
 fee = "$175"
+
+# ===============================
 
 [[session]]
 order = 1
@@ -27,6 +29,8 @@ name = "Planxty Irwin (Irish, O’Carolan)"
 [[session.repretoire]]
 name = "Nora Criona (Irish Jig)"
 
+# ===============================
+
 [[session]]
 order = 2
 name = "Advanced"
@@ -39,6 +43,7 @@ name = "Planxty Crowell"
 [[session.repretoire]]
 name = "Warm Island (Hawaiian slack-key style, with guitar-like techniques and ornamentation)"
 
+# ===============================
 
 [[session]]
 order = 3

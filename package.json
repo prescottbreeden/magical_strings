@@ -22,7 +22,8 @@
     "compile:sass": "node-sass src/sass/main.scss src/styles.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/styles.comp.css -o src/css/styles.prefixed.css",
     "compress:css": "node-sass src/styles.prefixed.css src/styles.min.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "build:css": "npm-run-all compile:sass prefix:css compress:css",
+    "update-data": "node ./tomls/update-json.js"
   },
   "eslintConfig": {
     "extends": "react-app"

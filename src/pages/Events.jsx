@@ -1,32 +1,27 @@
 import * as R from 'ramda';
 import Event from '../components/Event';
 import React, { useState } from 'react';
-import { ThreeRivers, yuleTide } from '../constants/performances';
 import {
   filterPastEvents,
   filterUpcomingEvents,
 } from '../utilities/event.utils';
 import Hero from '../components/Hero';
 import eventsPhoto from './../assets/ms_events_opt.jpg';
+import { eventData } from './../constants/events.json';
 
 const Events = () => {
-  // eventData = Event[]
-  const eventData = [ThreeRivers, yuleTide];
-
   // -- local state --
   const [upcomingFilter, setUpcomingFilter] = useState(true);
   const [events, setEvents] = useState(() => filterUpcomingEvents(eventData));
 
   // setUpcomingEvents :: () -> unit
   const setUpcomingEvents = () => {
-    console.log('upcomming');
     R.pipe(filterUpcomingEvents, setEvents)(eventData);
     setUpcomingFilter(true);
   };
 
   // setUpcomingEvents :: () -> unit
   const setPastEvents = () => {
-    console.log('past');
     R.pipe(filterPastEvents, setEvents)(eventData);
     setUpcomingFilter(false);
   };

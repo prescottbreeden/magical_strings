@@ -1,6 +1,6 @@
 import React from 'react';
 import { map } from 'ramda';
-import { albums } from '../constants/albums';
+import { album as albums } from '../constants/albums.json';
 import { getProp } from '../utilities/general.utils';
 
 const Recordings = () => {
