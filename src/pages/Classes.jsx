@@ -1,3 +1,4 @@
+import * as R from 'ramda';
 import React, { Component } from 'react';
 import Hero from '../components/Hero';
 import philip from './../assets/philip_harps_opt.jpg';
@@ -67,14 +68,14 @@ class Classes extends Component {
                     </h2>
                     <p>{s.description}</p>
                     <br />
-                    <p>
-                      <span className="class__title">
-                        Tentative Repertoire:{' '}
-                      </span>
-                      Princess Augusta (Scottish), Blind John the Harper
-                      (Welsh), Planxty Irwin (Irish, O’Carolan), Nora Criona
-                      (Irish Jig)
-                    </p>
+                    {s.repretoire.length > 0 ? (
+                      <p>
+                        <span className="class__title">
+                          Tentative Repertoire:{' '}
+                        </span>
+                        {s.repretoire.map(R.prop('name')).join(', ') + '.'}
+                      </p>
+                    ) : null}
                   </div>
                 </React.Fragment>
               ))}
