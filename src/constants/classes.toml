@@ -1,0 +1,25 @@
+[[class]]
+title: "Beginner",
+day: "Tuesdays",
+time: "5:00pm - 6:00pm"
+description: "... lots of words ...",
+repretoire: "... lots of words ...",
+
+
+[[class]]
+title: "Intermediate",
+day: "Tuesdays",
+time: "6:15pm - 7:15pm"
+description: "... lots of words ...",
+
+[[class.repretoire]]
+name: "Princess Augusta (Scottish)"
+
+[[class.repretoire]]
+name: "Blind John the Harper (Welsh)"
+
+[[class.repretoire]]
+name: "Planxty Irwin (Irish, O’Carolan)"
+
+[[class.repretoire]]
+name: "Nora Criona (Irish Jig)"

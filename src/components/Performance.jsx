@@ -14,6 +14,38 @@ const Performance = ({
     const when = new Date(Date.parse(date)).toDateString();
     return `${when} @ ${time}`;
   };
+  const renderCallToAction = () => {
+    if (new Date(date) < Date.now()) {
+      return (
+        <p className="performance__ticket-link--outline performance--item">
+          N / A
+        </p>
+      );
+    }
+    return callToAction ? (
+      <>
+        {ticketLink ? (
+          ticketLink === 'special' ? (
+            <p className="performance__ticket-link--outline performance--item">
+              Not available online
+            </p>
+          ) : (
+            <a
+              target="blank"
+              className="performance__ticket-link performance--item"
+              href={ticketLink}
+            >
+              {callToAction}
+            </a>
+          )
+        ) : (
+          <p className="performance__ticket-link--outline performance--item">
+            Coming Soon!
+          </p>
+        )}
+      </>
+    ) : null;
+  };
   return (
     <React.Fragment>
       <div className="performance">
@@ -32,29 +64,7 @@ const Performance = ({
           </p>
           <p className="performance__venue-details">{ticketInfo}</p>
         </div>
-        {callToAction ? (
-          <>
-            {ticketLink ? (
-              ticketLink === 'special' ? (
-                <p className="performance__ticket-link--outline performance--item">
-                  Not available online
-                </p>
-              ) : (
-                <a
-                  target="blank"
-                  className="performance__ticket-link performance--item"
-                  href={ticketLink}
-                >
-                  {callToAction}
-                </a>
-              )
-            ) : (
-              <p className="performance__ticket-link--outline performance--item">
-                Coming Soon!
-              </p>
-            )}
-          </>
-        ) : null}
+        {renderCallToAction()}
       </div>
     </React.Fragment>
   );

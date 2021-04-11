@@ -1,21 +1,10 @@
 import React, { Component } from 'react';
-import UnderConstruction from '../components/UnderConstruction';
 import Hero from '../components/Hero';
 import philip from './../assets/philip_harps_opt.jpg';
-import CallToAction from '../components/CallToAction';
-import { Link } from 'react-router-dom';
-// <UnderConstruction />
-// <div className="class__info">
-//   <h3 className="u-subtitle">Directions:</h3>
-//   <h3 className="u-subtitle">
-//     <a target="blank" href="https://goo.gl/maps/DVptMXnccQjYwLTR6">
-//       Google Maps
-//     </a>
-//   </h3>
-// </div>
+
 <p className="u-italic">10 minutes from Southworth ferry.</p>;
 class Classes extends Component {
-  // componentDidMount = () => window.scrollTo(0, 0);
+  componentDidMount = () => window.scrollTo(0, 0);
 
   render() {
     return (

@@ -107,6 +107,11 @@ body {
   text-decoration: underline;
 }
 
+.u-no-data {
+  font-size: 2rem;
+  color: #385600;
+}
+
 .about__title {
   color: #385600;
   margin: 1rem 0;
@@ -206,6 +211,53 @@ body {
   color: #385600;
   padding: 1rem 0;
   font-size: 3rem;
+}
+
+.filter {
+  font-size: 2rem;
+  display: flex;
+  margin-top: 2rem;
+}
+.filter__button--selected {
+  width: 50%;
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+  text-decoration: none;
+  background-color: #738c31;
+  color: white;
+  text-align: center;
+}
+.filter__button--selected:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 37.5em) {
+  .filter__button--selected {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+.filter__button--outline {
+  width: 50%;
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+  text-decoration: none;
+  background-color: #fff;
+  color: #385600;
+  text-align: center;
+  border: 1px solid #385600;
+}
+.filter__button--outline:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 37.5em) {
+  .filter__button--outline {
+    margin-top: 1rem;
+    width: 100%;
+  }
 }
 
 .hero {

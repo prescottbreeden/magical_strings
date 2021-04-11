@@ -11,7 +11,7 @@ const Recordings = () => {
         {map(album => {
           const get = getProp(album);
           return (
-            <div className="album">
+            <div className="album" key={get('title')}>
               <iframe
                 className="album__iframe"
                 title={get('title')}
