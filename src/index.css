@@ -140,6 +140,9 @@ body {
     text-align: center;
   }
 }
+.class__description {
+  margin-bottom: 2rem;
+}
 .class__info {
   display: flex;
   justify-content: space-between;

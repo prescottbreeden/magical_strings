@@ -4,7 +4,9 @@
     {
       "key": "threeRivers",
       "title": "Three Rivers Virtual Holiday Homebound Concert",
-      "description": "Featuring Curtis and Loretta Heidi Muller and Bob Webb Magical Strings and Watch the Sky.",
+      "description": [
+        "Featuring Curtis and Loretta Heidi Muller and Bob Webb Magical Strings and Watch the Sky."
+      ],
       "performances": [
         {
           "date": "12/5/2020",
@@ -21,7 +23,9 @@
     {
       "key": "yuletide",
       "title": "42nd Annual Celtic Yuletide Celebration",
-      "description": "For many in the Northwest it wouldn’t be the holidays without the harps dulcimers and energetic Celtic sounds of acclaimed family ensemble Magical Strings. The tradition continues this year as Magical Strings announces its 42nd year of annual Celtic Yuletide Concerts taking place virtually throughout Puget Sound in December 2020! The Boulding Family’s musical celebration of the holiday season is a treasured tradition – one that will continue despite the limitations of the global pandemic. While we can’t come together in person with each other and the Boulding family this year please join us online to celebrate the season. As always Pam and Philip Boulding will be joined by their children grandchildren and select guests for an afternoon of enchanting Yuletide music. The Boulding’s perform on Celtic harps hammered dulcimers strings and percussion while grandchildren from the Tara Academy add Irish step dancing for a festive and memorable performance. This year we are all experiencing dramatic changes to cherished traditions and that certainly includes the Celtic Yuletide Concerts with 42 years of performing together as a family all over the Northwest.Thank you for supporting Magical Strings purchasing tickets and joining us for this unusual virtual celebration. We wish you a peaceful and heart-warming holiday and Christmas season. May this concert help to bring us closer together even though we all must stay safe and physically isolated from one another. Together we can continue to kindle the light of Yuletide!",
+      "description": [
+        "For many in the Northwest it wouldn’t be the holidays without the harps dulcimers and energetic Celtic sounds of acclaimed family ensemble Magical Strings. The tradition continues this year as Magical Strings announces its 42nd year of annual Celtic Yuletide Concerts taking place virtually throughout Puget Sound in December 2020! The Boulding Family’s musical celebration of the holiday season is a treasured tradition – one that will continue despite the limitations of the global pandemic. While we can’t come together in person with each other and the Boulding family this year please join us online to celebrate the season. As always Pam and Philip Boulding will be joined by their children grandchildren and select guests for an afternoon of enchanting Yuletide music. The Boulding’s perform on Celtic harps hammered dulcimers strings and percussion while grandchildren from the Tara Academy add Irish step dancing for a festive and memorable performance. This year we are all experiencing dramatic changes to cherished traditions and that certainly includes the Celtic Yuletide Concerts with 42 years of performing together as a family all over the Northwest.Thank you for supporting Magical Strings purchasing tickets and joining us for this unusual virtual celebration. We wish you a peaceful and heart-warming holiday and Christmas season. May this concert help to bring us closer together even though we all must stay safe and physically isolated from one another. Together we can continue to kindle the light of Yuletide!"
+      ],
       "performances": [
         {
           "date": "12/6/2020",
@@ -52,6 +56,48 @@
           "location": "Portland",
           "googleMaps": "",
           "ticketInfo": "Ticket sales support Magical Strings and the venue."
+        }
+      ]
+    },
+    {
+      "key": "harpcamp2021",
+      "title": "Virtual Magic Hill Summer Harp Camp",
+      "description": [
+        "We are happy to present our ‘Second Annual’ Virtual Harp Camp from Magic Hill, which will consist of several zoom sessions over a three-day period, Friday-Sunday.  Students who register will be able to attend all sessions.  At least a basic working knowledge of the harp and technique is advised, but anyone can participate.  There will be time for instruction, questions and practice.  The repertoire will span the range from one of Philip’s innovative arrangements from the valiha tradition of Madagascar, Malagasy Greeting; and a beautiful Jamaican lullaby from Philip’s childhood, to traditional dance tunes with emphasis on arranging and accompaniment playing, and another beautiful ancient air from the Bunting Collection of Ireland, among other things.  There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend.",
+        "We are planning to hold a ‘Virtual Fire Circle’ on Saturday evening as per Harp Camp tradition- be prepared to play and/or sing along with some of the tunes; and maybe even take a ‘virtual walk’ around Magic Hill!  You’ll also hear some music, songs and stories from Magical Strings and guests.",
+        "All music and materials will be emailed to registrants in advance.  Site-reading skills are not essential, but would be helpful.  Don’t worry if you can’t digest all the material given – it will be taught in ‘bite-size’ pieces, and everyone will receive something of value.  The most important thing is to have fun!",
+        "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!"
+      ],
+      "performances": [
+        {
+          "date": "8/20/2021",
+          "time": "3pm - 8pm",
+          "venue": "Virtual Magic Hill Summer Harp Camp",
+          "callToAction": "Attend Online",
+          "ticketLink": "/#/classes",
+          "location": "Day 1",
+          "googleMaps": "",
+          "ticketInfo": "$195 for all 3 days. Contact us for details."
+        },
+        {
+          "date": "8/21/2021",
+          "time": "9am - 8pm",
+          "venue": "Virtual Magic Hill Summer Harp Camp",
+          "callToAction": "Attend Online",
+          "ticketLink": "/#/classes",
+          "location": "Day 2",
+          "googleMaps": "",
+          "ticketInfo": "$195 for all 3 days. Contact us for details."
+        },
+        {
+          "date": "8/22/2021",
+          "time": "10 - 11:30am",
+          "venue": "Virtual Magic Hill Summer Harp Camp",
+          "callToAction": "Attend Online",
+          "ticketLink": "/#/classes",
+          "location": "Day 3",
+          "googleMaps": "",
+          "ticketInfo": "$195 for all 3 days. Contact us for details."
         }
       ]
     }
