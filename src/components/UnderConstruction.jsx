@@ -1,11 +1,15 @@
 import React from 'react';
 import construction from './../assets/underconstruction.png';
 
-const UnderConstruction = props => {
+const UnderConstruction = () => {
   return (
     <React.Fragment>
       <div className="under-construction">
-        <img src={construction} alt="" className="under-construction__img" />
+        <img
+          src={construction}
+          alt="Under Construction"
+          className="under-construction__img"
+        />
       </div>
     </React.Fragment>
   );
