@@ -16,10 +16,10 @@ const Classes = () => {
   return (
     <>
       <section className="event">
-        <h2 className="event__title">School of Magical Strings</h2>
+        <h2 className="page__title">School of Magical Strings</h2>
         <Hero photo={philip} alt="Philip Boulidng with Harps" />
         <div className="class">
-          <h2 className="event__title">
+          <h2 className="page__title">
             {general('name')} &#8212; {general('term')}
           </h2>
         </div>

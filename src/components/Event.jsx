@@ -11,7 +11,7 @@ const Event = props => {
       <section className="event">
         <h2 className="event__title">{title}</h2>
         {description.map((d, i) => (
-          <p style={{ marginBottom: '1rem' }} key={i}>
+          <p style={{ margin: '2rem 0' }} key={i}>
             {d}
           </p>
         ))}

@@ -38,28 +38,34 @@ const Events = () => {
 
   const getModifiier = bool => (bool ? 'selected' : 'outline');
 
+  // removed for cleanliness
+  const UpcomingEvents = () => (
+    <button
+      className={`filter__button--${getModifiier(upcomingFilter)}`}
+      onClick={setUpcomingEvents}
+    >
+      Upcoming Events
+    </button>
+  );
+
+  // removed for cleanliness
+  const PastEvents = () => (
+    <button
+      className={`filter__button--${getModifiier(!upcomingFilter)}`}
+      onClick={setPastEvents}
+    >
+      Past Events
+    </button>
+  );
+
   return (
     <React.Fragment>
       <section className="event">
-        <h2 className="event__title">Events and Performances</h2>
+        <h2 className="page__title">Events and Performances</h2>
         <Hero
           photo={eventsPhoto}
           alt="Magical Strings band at Yuletide in Levinworth"
         />
-        <div className="filter">
-          <button
-            className={`filter__button--${getModifiier(upcomingFilter)}`}
-            onClick={setUpcomingEvents}
-          >
-            Upcoming Events
-          </button>
-          <button
-            className={`filter__button--${getModifiier(!upcomingFilter)}`}
-            onClick={setPastEvents}
-          >
-            Past Events
-          </button>
-        </div>
         <div className="u-section-break" />
         <div className="event__container">{computedEvents}</div>
       </section>

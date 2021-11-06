@@ -31,6 +31,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.base-layout {
+  padding: 1rem;
+}
+
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
@@ -75,8 +79,18 @@ body {
 .u-section-break {
   margin-bottom: 8rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .u-section-break {
+    margin-bottom: 4rem;
+  }
+}
 .u-section-break--small {
   margin-bottom: 5rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .u-section-break--small {
+    margin-bottom: 2rem;
+  }
 }
 
 .u-subtitle {
@@ -116,7 +130,6 @@ body {
   color: #385600;
   margin: 1rem 0;
 }
-
 .about__blurb {
   word-spacing: 1px;
   text-align: justify;
@@ -171,7 +184,6 @@ body {
   font-weight: bold;
   color: #385600;
 }
-
 .contact__info {
   color: #385600;
   font-size: 3rem;
@@ -180,6 +192,10 @@ body {
   .contact__info {
     font-size: 2rem;
   }
+}
+.contact__hero {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .event {
@@ -226,11 +242,13 @@ body {
   font-size: 2.2rem;
   padding: 1rem 2rem;
   border-radius: 3px;
-  margin-right: 1rem;
   text-decoration: none;
   background-color: #738c31;
   color: white;
   text-align: center;
+}
+.filter__button--selected:not(:last-child) {
+  margin-right: 1rem;
 }
 .filter__button--selected:hover {
   cursor: pointer;
@@ -246,12 +264,14 @@ body {
   font-size: 2.2rem;
   padding: 1rem 2rem;
   border-radius: 3px;
-  margin-right: 1rem;
   text-decoration: none;
   background-color: #fff;
   color: #385600;
   text-align: center;
   border: 1px solid #385600;
+}
+.filter__button--outline:not(:last-child) {
+  margin-right: 1rem;
 }
 .filter__button--outline:hover {
   cursor: pointer;
@@ -271,7 +291,12 @@ body {
   border-radius: 3px;
 }
 .hero__img--small {
-  width: 50% !important;
+  width: 50%;
+}
+@media only screen and (max-width: 37.5em) {
+  .hero__img--small {
+    width: 100%;
+  }
 }
 
 .performance {
@@ -330,10 +355,13 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .performance__group {
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .performance__location {
+    font-weight: bold;
   }
 }
 .performance__ticket-link {
@@ -349,6 +377,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   .performance__ticket-link {
     margin-top: 1rem;
+    margin-right: 0;
     width: 100%;
   }
 }
@@ -366,15 +395,18 @@ body {
 @media only screen and (max-width: 37.5em) {
   .performance__ticket-link--outline {
     margin-top: 1rem;
+    margin-right: 0;
     width: 100%;
   }
 }
 
 .under-construction {
   text-align: center;
+  max-width: 100%;
+  padding: 5rem;
 }
 .under-construction__img {
-  margin: 5rem;
+  max-width: 100%;
 }
 
 .video {
@@ -432,6 +464,11 @@ body {
 @media only screen and (max-width: 56.75em) {
   .header {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .header {
+    padding-bottom: 0;
   }
 }
 .header__logo {
@@ -498,8 +535,13 @@ body {
 
 .page__title {
   color: #385600;
+  font-size: 4rem;
 }
-
+@media only screen and (max-width: 37.5em) {
+  .page__title {
+    font-size: 2rem;
+  }
+}
 .page__cta {
   width: 100%;
   display: flex;
@@ -552,18 +594,15 @@ body {
     background-position: center;
   }
 }
-
 .harp-camp__description {
   background-color: #e8e7e7;
   padding: 3rem;
 }
-
 .harp-camp__title {
   text-align: center;
   color: #738c31;
   margin-bottom: 2rem;
 }
-
 .harp-camp__summary {
   text-align: center;
   padding: 0 15rem;
@@ -575,7 +614,6 @@ body {
     padding: 0 2rem;
   }
 }
-
 .harp-camp__info {
   padding: 3rem;
   display: flex;
@@ -592,7 +630,6 @@ body {
     padding: 0;
   }
 }
-
 .harp-camp__class {
   padding: 2rem 3.5rem;
   text-align: left;
@@ -614,11 +651,9 @@ body {
 .harp-camp__class--blurb {
   font-size: 1.7rem;
 }
-
 .harp-camp__cta {
   text-align: center;
 }
-
 .harp-camp__register-btn {
   border: none;
   background-color: #385600;
@@ -634,7 +669,6 @@ body {
   cursor: pointer;
   background-color: #738c31;
 }
-
 .harp-camp__workshops {
   padding: 3rem;
 }
@@ -655,7 +689,6 @@ body {
   width: 60%;
   text-align: left;
 }
-
 .harp-camp__faq {
   margin-top: 3rem;
   background-color: #e8e7e7;
@@ -681,7 +714,6 @@ body {
     width: 80%;
   }
 }
-
 .harp-camp__success {
   padding: 3rem;
   text-align: center;
@@ -703,7 +735,6 @@ body {
   background-color: #e8e7e7;
   padding: 2rem;
 }
-
 .register__return {
   position: fixed;
   top: 80%;
@@ -722,7 +753,6 @@ body {
   cursor: pointer;
   background: linear-gradient(135deg, white 3.2rem, #738c31, #738c31 3.2rem);
 }
-
 .register__form {
   margin-top: 3rem;
   display: block;
@@ -755,3 +785,5 @@ body {
 .payment__form > * {
   margin-top: 2rem;
 }
+
+/*# sourceMappingURL=index.css.map */

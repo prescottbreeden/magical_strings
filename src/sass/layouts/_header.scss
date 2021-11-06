@@ -11,6 +11,10 @@
     flex-direction: column;
   }
 
+  @include respond(phone) {
+    padding-bottom: 0;
+  }
+
   &__logo {
     height: 8rem;
     width: auto;

@@ -7,8 +7,10 @@ class HarpShop extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2 className="page__title">Harps and Dulcimers</h2>
-        <UnderConstruction />
+        <section className="event">
+          <h2 className="page__title">Harps and Dulcimers</h2>
+          <UnderConstruction />
+        </section>
       </React.Fragment>
     );
   }

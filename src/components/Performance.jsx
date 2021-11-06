@@ -50,8 +50,8 @@ const Performance = ({
     <React.Fragment>
       <div className="performance">
         <div className="performance__group">
-          <p>{location}</p>
-          <p>{generateDate(date, time)}</p>
+          <p className="performance__location">{location}</p>
+          <p className="performance__date">{generateDate(date, time)}</p>
         </div>
         <div className="performance__details">
           <p className="performance__venue-details">

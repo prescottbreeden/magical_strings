@@ -9,18 +9,21 @@ import Landing from './pages/Landing';
 import Recordings from './pages/Recordings';
 import Header from './layouts/Header';
 import Footer from './layouts/Footer';
+import { BaseLayout } from './layouts/BaseLayout';
 
 function App() {
   return (
     <div>
       <HashRouter>
         <Header />
-        <Route path="/" exact component={Landing} />
-        <Route path="/classes" exact component={Classes} />
-        <Route path="/contact" exact component={Contact} />
-        <Route path="/events" component={Events} />
-        <Route path="/harpshop" exact component={HarpShop} />
-        <Route path="/recordings" component={Recordings} />
+        <BaseLayout>
+          <Route path="/" exact component={Landing} />
+          <Route path="/classes" exact component={Classes} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/events" component={Events} />
+          <Route path="/harpshop" exact component={HarpShop} />
+          <Route path="/recordings" component={Recordings} />
+        </BaseLayout>
         <Footer />
       </HashRouter>
     </div>

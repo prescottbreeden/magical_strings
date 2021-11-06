@@ -23,14 +23,14 @@ const Header = () => {
           to="/recordings"
           activeStyle={activeStyles}
         >
-          Recordings
+          Albums
         </NavLink>
         <NavLink
           className="nav__link"
           to="/harpshop"
           activeStyle={activeStyles}
         >
-          Harps
+          Shop
         </NavLink>
         <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
           Classes

@@ -1,6 +1,11 @@
 .page {
   &__title {
     color: $color-dark-green;
+    font-size: 4rem;
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
   }
 
   &__cta {

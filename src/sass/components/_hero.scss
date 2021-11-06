@@ -6,7 +6,11 @@
     border-radius: 3px;
 
     &--small {
-      width: 50% !important;
+      width: 50%;
+
+      @include respond(phone) {
+        width: 100%;
+      }
     }
   }
 }

@@ -15,9 +15,15 @@
 
 .u-section-break {
   margin-bottom: 8rem;
+  @include respond(phone) {
+    margin-bottom: 4rem;
+  }
 
   &--small {
     margin-bottom: 5rem;
+    @include respond(phone) {
+      margin-bottom: 2rem;
+    }
   }
 }
 
