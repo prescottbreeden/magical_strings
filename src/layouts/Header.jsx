@@ -30,7 +30,7 @@ const Header = () => {
           to="/harpshop"
           activeStyle={activeStyles}
         >
-          Harp Shop
+          Harps
         </NavLink>
         <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
           Classes

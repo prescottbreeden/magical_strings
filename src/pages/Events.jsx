@@ -6,7 +6,7 @@ import {
   filterUpcomingEvents,
 } from '../utilities/event.utils';
 import Hero from '../components/Hero';
-import eventsPhoto from './../assets/ms_events_opt.jpg';
+import eventsPhoto from './../assets/Yuletide2021.png';
 import { eventData } from './../constants/events.json';
 
 const Events = () => {
@@ -42,7 +42,10 @@ const Events = () => {
     <React.Fragment>
       <section className="event">
         <h2 className="event__title">Events and Performances</h2>
-        <Hero photo={eventsPhoto} alt="Pam and Philip Boulding" small />
+        <Hero
+          photo={eventsPhoto}
+          alt="Magical Strings band at Yuletide in Levinworth"
+        />
         <div className="filter">
           <button
             className={`filter__button--${getModifiier(upcomingFilter)}`}

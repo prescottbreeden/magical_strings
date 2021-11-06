@@ -10,6 +10,8 @@ const Event = props => {
         <p>{description}</p>
         <div className="event__performances">
           <h3 className="event__performances-title">Performances</h3>
+          <p className="">All times are in PST (Pacific Standard Time)</p>
+          <br />
           {performances && performances.length > 0 ? (
             performances.map((performance, idx) => {
               return <Performance key={idx} {...performance} />;
@@ -20,9 +22,6 @@ const Event = props => {
             </p>
           )}
         </div>
-        <p className="u-italic">
-          * All times are in PST (Pacific Standard Time)
-        </p>
         <div className="u-section-break" />
         <hr />
       </section>
