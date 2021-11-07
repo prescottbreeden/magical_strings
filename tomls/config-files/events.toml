@@ -2,7 +2,7 @@ name = "events"
 
 [[eventData]]
 key = "yuletide2021"
-title = "43rd Annual Celtic Yuletide Concerts"
+title = "43rd Annual Celtic Yuletide"
 description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re pleased that fiddler and piper Vienna Scheyer will join the band for the first time, along with our favorite Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance.  Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."]
 
 [[eventData.performances]]
@@ -13,7 +13,8 @@ callToAction = "Buy Tickets"
 ticketLink = "https://www.kentwa.gov/residents/parks-recreation-and-community-services/arts/spotlight-series-2021-2022"
 location = "Kent, WA"
 googleMaps = "https://goo.gl/maps/yM929bW6NAXNCKL56"
-ticketInfo = "Tickets available through the venue."
+ticketInfo = ""
+soldout = false
 
 [[eventData.performances]]
 date = "12/12/2021"
@@ -23,7 +24,8 @@ callToAction = "Buy Tickets"
 ticketLink = "https://lincolntheatre.org/"
 location = "Mount Vernon, WA"
 googleMaps = "https://g.page/LincolnTheatreMVWA?share"
-ticketInfo = "Tickets available through the venue."
+ticketInfo = ""
+soldout = false
 
 [[eventData.performances]]
 date = "12/15/2021"
@@ -33,7 +35,8 @@ callToAction = "Buy Tickets"
 ticketLink = "https://albertarosetheatre.com/"
 location = "Portland, OR"
 googleMaps = "https://goo.gl/maps/sQE4Sb3T6pr5w9My7"
-ticketInfo = "Tickets available through the venue."
+ticketInfo = ""
+soldout = false
 
 [[eventData.performances]]
 date = "12/17/2021"
@@ -43,7 +46,8 @@ callToAction = "Buy Tickets"
 ticketLink = ""
 location = "Leavenworth, WA"
 googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
-ticketInfo = ""
+ticketInfo = "Tickets will be available through the venue."
+soldout = false
 
 [[eventData.performances]]
 date = "12/18/2021"
@@ -53,7 +57,8 @@ callToAction = "Buy Tickets"
 ticketLink = ""
 location = "Leavenworth, WA"
 googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
-ticketInfo = ""
+ticketInfo = "Tickets will be available through the venue."
+soldout = false
 
 # ===============================
 
@@ -73,6 +78,7 @@ ticketLink = "https =//vimeo.com/479388039"
 location = "Online Stream"
 googleMaps = ""
 ticketInfo = "Donations appreciated for viewing this concert."
+soldout = false
 
 # ===============================
 
@@ -92,6 +98,7 @@ ticketLink = "https =//www.kentwa.gov/residents/parks-recreation-and-community-s
 location = "Kent"
 googleMaps = ""
 ticketInfo = "Not available after 12/6."
+soldout = false
 
 [[eventData.performances]]
 date = "12/13/2020"
@@ -102,6 +109,7 @@ ticketLink = "https =//lincolntheatre.org/film/magical-strings-celtic-yuletide-v
 location = "Mt. Vernon"
 googleMaps = ""
 ticketInfo = "Ticket sales support Magical Strings and the venue."
+soldout = false
 
 [[eventData.performances]]
 date = "12/16/2020"
@@ -112,6 +120,7 @@ ticketLink = "https =//albertarosetheatre.com/events/magical-strings-presents-ce
 location = "Portland"
 googleMaps = ""
 ticketInfo = "Ticket sales support Magical Strings and the venue."
+soldout = false
 
 # ===============================
 
@@ -135,6 +144,7 @@ ticketLink = "/#/classes"
 location = "Day 1"
 googleMaps = ""
 ticketInfo = "$195 for all 3 days. Contact us for details."
+soldout = false
 
 [[eventData.performances]]
 date = "8/21/2021"
@@ -145,6 +155,7 @@ ticketLink = "/#/classes"
 location = "Day 2"
 googleMaps = ""
 ticketInfo = "$195 for all 3 days. Contact us for details."
+soldout = false
 
 [[eventData.performances]]
 date = "8/22/2021"
@@ -155,3 +166,4 @@ ticketLink = "/#/classes"
 location = "Day 3"
 googleMaps = ""
 ticketInfo = "$195 for all 3 days. Contact us for details."
+soldout = false

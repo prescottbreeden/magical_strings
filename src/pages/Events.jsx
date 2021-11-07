@@ -61,12 +61,22 @@ const Events = () => {
   return (
     <React.Fragment>
       <section className="event">
-        <h2 className="page__title">Events and Performances</h2>
+        <h2 className="page__title">Events & Tickets</h2>
         <Hero
           photo={eventsPhoto}
-          alt="Magical Strings band at Yuletide in Levinworth"
+          alt="Magical Strings band memebers at Yuletide in Leavenworth"
         />
-        <div className="u-section-break" />
+        <div className="u-section-break--small" />
+        <div className="covid">
+          <h2 className="covid__title">Safety Update</h2>
+          <p className="covid__description">
+            Magical Strings is committed to providing a safe and comfortable
+            concert experience. Please be sure to check COVID-19 vaccination,
+            exemption, and masking requirements at the venue you plan to attend.
+            We look forward to seeing you!
+          </p>
+        </div>
+        <div className="u-section-break--small" />
         <div className="event__container">{computedEvents}</div>
       </section>
     </React.Fragment>

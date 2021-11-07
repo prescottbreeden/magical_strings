@@ -1,0 +1,14 @@
+.covid {
+  border: 2px solid rgba(red, 0.4);
+  padding: 1rem;
+  border-radius: $default-border-radius;
+
+  &__title {
+    color: rgba(red, 0.7);
+    font-size: 3rem;
+
+    @include respond(phone) {
+      font-size: 2.4rem;
+    }
+  }
+}

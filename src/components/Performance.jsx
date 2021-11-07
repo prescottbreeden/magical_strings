@@ -1,14 +1,15 @@
 import React from 'react';
 
 const Performance = ({
+  callToAction,
   date,
-  location,
   googleMaps,
+  location,
+  soldout,
   ticketInfo,
+  ticketLink,
   time,
   venue,
-  ticketLink,
-  callToAction,
 }) => {
   const generateDate = (date, time) => {
     const when = new Date(Date.parse(date)).toDateString();
@@ -46,6 +47,14 @@ const Performance = ({
       </>
     ) : null;
   };
+
+  const Availability = () =>
+    soldout ? (
+      <p className="performance__soldout">Sold-out</p>
+    ) : (
+      <p className="performance__available">Tickets Available</p>
+    );
+
   return (
     <React.Fragment>
       <div className="performance">
@@ -63,6 +72,7 @@ const Performance = ({
             )}
           </p>
           <p className="performance__venue-details">{ticketInfo}</p>
+          {ticketLink && <Availability />}
         </div>
         {renderCallToAction()}
       </div>

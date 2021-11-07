@@ -198,6 +198,21 @@ body {
   text-align: center;
 }
 
+.covid {
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 3px;
+}
+.covid__title {
+  color: rgba(255, 0, 0, 0.7);
+  font-size: 3rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .covid__title {
+    font-size: 2.4rem;
+  }
+}
+
 .event {
   margin-top: 2rem;
 }
@@ -207,7 +222,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .event__title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 .event__banner {
@@ -230,6 +245,11 @@ body {
   color: #385600;
   padding: 1rem 0;
   font-size: 3rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .event__performances-title {
+    font-size: 2.4rem;
+  }
 }
 
 .filter {
@@ -288,7 +308,7 @@ body {
 }
 .hero__img {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 .hero__img--small {
   width: 50%;
@@ -339,9 +359,6 @@ body {
   .performance__details {
     width: 100% !important;
   }
-}
-.performance__venue-details {
-  font-size: 1.6rem;
 }
 .performance__group {
   display: flex;
@@ -398,6 +415,12 @@ body {
     margin-right: 0;
     width: 100%;
   }
+}
+.performance__soldout {
+  color: red;
+}
+.performance__available {
+  color: #385600;
 }
 
 .under-construction {
@@ -539,7 +562,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .page__title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 .page__cta {
