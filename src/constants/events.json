@@ -45,22 +45,22 @@
           "date": "12/17/2021",
           "time": "7:00pm",
           "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
-          "callToAction": "Coming Soon",
-          "ticketLink": "",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.secure.force.com/ticket/#/events/a0S36000004xG9LEAU",
           "location": "Leavenworth, WA",
           "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
-          "ticketInfo": "Tickets will be available through the venue.",
+          "ticketInfo": "Both in-person and virtual tickets",
           "soldout": false
         },
         {
           "date": "12/18/2021",
           "time": "2:00pm",
           "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
-          "callToAction": "Coming Soon",
-          "ticketLink": "",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.secure.force.com/ticket/#/events/a0S36000004xG9LEAU",
           "location": "Leavenworth, WA",
           "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
-          "ticketInfo": "Tickets will be available through the venue.",
+          "ticketInfo": "Both in-person and virtual tickets",
           "soldout": false
         }
       ]
