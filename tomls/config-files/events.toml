@@ -1,6 +1,23 @@
 name = "events"
 
 [[eventData]]
+key = "artist-sunday-2021"
+title = "Artist Sunday"
+description = ["Support local artists and creative businesses on Artists Sunday, November 28th from noon to 6pm, and give the gift of art this holiday season! The Historically Hip Artisan Market Pop-Up Shop in the Issaquah Depot Museum features rotating artists from around the country with special musical performances including seasonal Magical Strings celctic music at 5pm.", "Artists Sunday is a national movement to encourage consumers to shop with local artists and craftspeople during the holiday season. Artists Sunday takes place the Sunday after Thanksgiving. It's like Black Friday or Small Business Saturday but for the arts."]
+
+[[eventData.performances]]
+date = "11/28/2021"
+time = "5:00pm"
+venue = "Issaquah Depot Museum"
+callToAction = "Join Us!"
+ticketLink = "https://downtownissaquah.com/"
+location = "Kent, WA"
+googleMaps = "https://goo.gl/maps/uLXUDykHyhXq2b9e6"
+ticketInfo = ""
+soldout = false
+fair = true
+
+[[eventData]]
 key = "yuletide2021"
 title = "43rd Annual Celtic Yuletide"
 description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re pleased that fiddler and piper Vienna Scheyer will join the band for the first time, along with our favorite Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance.  Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."]

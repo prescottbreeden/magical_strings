@@ -1,12 +1,12 @@
 import * as R from 'ramda';
-import React, { useEffect } from 'react';
+import React from 'react';
 import Hero from '../components/Hero';
 import philip from './../assets/philip_harps_opt.jpg';
 import classData from '../constants/classes.json';
 
 <p className="u-italic">10 minutes from Southworth ferry.</p>;
 const Classes = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 

@@ -1,6 +1,6 @@
 import * as R from 'ramda';
 import Event from '../components/Event';
-import React, { useState } from 'react';
+import React from 'react';
 import {
   filterPastEvents,
   filterUpcomingEvents,
@@ -11,8 +11,14 @@ import { eventData } from './../constants/events.json';
 
 const Events = () => {
   // -- local state --
-  const [upcomingFilter, setUpcomingFilter] = useState(true);
-  const [events, setEvents] = useState(() => filterUpcomingEvents(eventData));
+  const [upcomingFilter, setUpcomingFilter] = React.useState(true);
+  const [events, setEvents] = React.useState(() =>
+    filterUpcomingEvents(eventData)
+  );
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // setUpcomingEvents :: () -> unit
   const setUpcomingEvents = () => {

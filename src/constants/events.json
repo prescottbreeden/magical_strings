@@ -2,6 +2,28 @@
   "name": "events",
   "eventData": [
     {
+      "key": "artist-sunday-2021",
+      "title": "Artist Sunday",
+      "description": [
+        "Support local artists and creative businesses on Artists Sunday, November 28th from noon to 6pm, and give the gift of art this holiday season! The Historically Hip Artisan Market Pop-Up Shop in the Issaquah Depot Museum features rotating artists from around the country with special musical performances including seasonal Magical Strings celctic music at 5pm.",
+        "Artists Sunday is a national movement to encourage consumers to shop with local artists and craftspeople during the holiday season. Artists Sunday takes place the Sunday after Thanksgiving. It's like Black Friday or Small Business Saturday but for the arts."
+      ],
+      "performances": [
+        {
+          "date": "11/28/2021",
+          "time": "5:00pm",
+          "venue": "Issaquah Depot Museum",
+          "callToAction": "Join Us!",
+          "ticketLink": "https://downtownissaquah.com/",
+          "location": "Kent, WA",
+          "googleMaps": "https://goo.gl/maps/uLXUDykHyhXq2b9e6",
+          "ticketInfo": "",
+          "soldout": false,
+          "fair": true
+        }
+      ]
+    },
+    {
       "key": "yuletide2021",
       "title": "43rd Annual Celtic Yuletide",
       "description": [

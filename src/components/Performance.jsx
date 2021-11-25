@@ -3,6 +3,7 @@ import React from 'react';
 const Performance = ({
   callToAction,
   date,
+  fair,
   googleMaps,
   location,
   soldout,
@@ -32,7 +33,8 @@ const Performance = ({
             </p>
           ) : (
             <a
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
               className="performance__ticket-link performance--item"
               href={ticketLink}
             >
@@ -49,7 +51,7 @@ const Performance = ({
   };
 
   const Availability = () =>
-    soldout ? (
+    fair ? null : soldout ? (
       <p className="performance__soldout">Sold-out</p>
     ) : (
       <p className="performance__available">Tickets Available</p>
@@ -66,7 +68,12 @@ const Performance = ({
           <p className="performance__venue-details">
             {venue}
             {googleMaps && (
-              <a className="performance--directions" href={googleMaps}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="performance--directions"
+                href={googleMaps}
+              >
                 (map)
               </a>
             )}
