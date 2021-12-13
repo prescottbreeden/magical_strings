@@ -16,8 +16,14 @@ const Performance = ({
     const when = new Date(Date.parse(date)).toDateString();
     return `${when} @ ${time}`;
   };
+  const getTime = () => {
+    const h = Number(time.split(':')[0]);
+    const pm = time.split('pm').length === 2;
+    return pm ? h + 12 : h;
+  };
+  const pastEvent = new Date(date).setHours(getTime()) < Date.now();
   const renderCallToAction = () => {
-    if (new Date(date) < Date.now()) {
+    if (pastEvent) {
       return (
         <p className="performance__ticket-link--outline performance--item">
           N / A
@@ -79,7 +85,7 @@ const Performance = ({
             )}
           </p>
           <p className="performance__venue-details">{ticketInfo}</p>
-          {ticketLink && <Availability />}
+          {ticketLink && !pastEvent && <Availability />}
         </div>
         {renderCallToAction()}
       </div>
