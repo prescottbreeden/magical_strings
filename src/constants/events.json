@@ -2,6 +2,51 @@
   "name": "events",
   "eventData": [
     {
+      "key": "2022-st-patricks",
+      "title": "St. Patrick's Day Concerts with Irish Dancers",
+      "description": [
+        "Get in the St. Patrick's day spirit with Irish music and dancing from the amazing Tara Academy!"
+      ],
+      "performances": [
+        {
+          "date": "3/12/2022",
+          "time": "7:30pm",
+          "venue": "Thumnail Theatre",
+          "callToAction": "Join Us!",
+          "ticketLink": "https://ticketpeak.co/tntt/events/6094-Magical%20Strings/20648",
+          "location": "Snohomish, WA",
+          "googleMaps": "https://g.page/thumbnail-theater-snohomish?share",
+          "ticketInfo": "Purchase Tickets Online",
+          "soldout": false,
+          "fair": false
+        },
+        {
+          "date": "3/18/2022",
+          "time": "7:30pm",
+          "venue": "Nichols Community Center",
+          "callToAction": "Join Us!",
+          "ticketLink": "https://foxislandficra.org/2022/02/22/magical-strings/",
+          "location": "Fox Island, WA",
+          "googleMaps": "https://g.page/ficra?share",
+          "ticketInfo": "Purchase Tickets Online",
+          "soldout": false,
+          "fair": false
+        },
+        {
+          "date": "3/19/2022",
+          "time": "7:30pm",
+          "venue": "Kenyon Hall",
+          "callToAction": "Join Us!",
+          "ticketLink": "http://kenyonhall.org/",
+          "location": "Seattle, WA",
+          "googleMaps": "https://goo.gl/maps/dy5C9qRm71AsnDq99",
+          "ticketInfo": "Email venue to request seats!",
+          "soldout": false,
+          "fair": false
+        }
+      ]
+    },
+    {
       "key": "artist-sunday-2021",
       "title": "Artist Sunday",
       "description": [

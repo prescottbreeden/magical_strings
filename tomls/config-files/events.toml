@@ -1,6 +1,47 @@
 name = "events"
 
 [[eventData]]
+key = "2022-st-patricks"
+title = "St. Patrick's Day Concerts with Irish Dancers"
+description = ["Get in the St. Patrick's day spirit with Irish music and dancing from the amazing Tara Academy!"]
+
+[[eventData.performances]]
+date = "3/12/2022"
+time = "7:30pm"
+venue = "Thumnail Theatre"
+callToAction = "Join Us!"
+ticketLink = "https://ticketpeak.co/tntt/events/6094-Magical%20Strings/20648"
+location = "Snohomish, WA"
+googleMaps = "https://g.page/thumbnail-theater-snohomish?share"
+ticketInfo = "Purchase Tickets Online"
+soldout = false
+fair = false
+
+[[eventData.performances]]
+date = "3/18/2022"
+time = "7:30pm"
+venue = "Nichols Community Center"
+callToAction = "Join Us!"
+ticketLink = "https://foxislandficra.org/2022/02/22/magical-strings/"
+location = "Fox Island, WA"
+googleMaps = "https://g.page/ficra?share"
+ticketInfo = "Purchase Tickets Online"
+soldout = false
+fair = false
+
+[[eventData.performances]]
+date = "3/19/2022"
+time = "7:30pm"
+venue = "Kenyon Hall"
+callToAction = "Join Us!"
+ticketLink = "http://kenyonhall.org/"
+location = "Seattle, WA"
+googleMaps = "https://goo.gl/maps/dy5C9qRm71AsnDq99"
+ticketInfo = "Email venue to request seats!"
+soldout = false
+fair = false
+
+[[eventData]]
 key = "artist-sunday-2021"
 title = "Artist Sunday"
 description = ["Support local artists and creative businesses on Artists Sunday, November 28th, from noon to 6 pm, and give the gift of art this holiday season! The Historically Hip Artisan Market Pop-Up Shop in the Issaquah Depot Museum features rotating artists from around the country with special musical performances, including seasonal Magical Strings Celtic music at 5 pm.", "Artists Sunday is a national movement to encourage consumers to shop with local artists and craftspeople during the holiday season. Artists Sunday takes place the Sunday after Thanksgiving. It's like Black Friday or Small Business Saturday, but for the arts."]

@@ -1,59 +1,60 @@
 import React from 'react';
+import equals from 'ramda/src/equals';
+import cond from 'ramda/src/cond';
+import otherwise from 'ramda/src/T';
+import isNil from 'ramda/src/isNil';
 
-const Performance = ({
-  callToAction,
-  date,
-  fair,
-  googleMaps,
-  location,
-  soldout,
-  ticketInfo,
-  ticketLink,
-  time,
-  venue,
-}) => {
-  const generateDate = (date, time) => {
-    const when = new Date(Date.parse(date)).toDateString();
-    return `${when} @ ${time}`;
-  };
-  const getTime = () => {
-    const h = Number(time.split(':')[0]);
-    const pm = time.split('pm').length === 2;
-    return pm ? h + 12 : h;
-  };
-  const pastEvent = new Date(date).setHours(getTime()) < Date.now();
-  const renderCallToAction = () => {
-    if (pastEvent) {
-      return (
-        <p className="performance__ticket-link--outline performance--item">
-          N / A
-        </p>
-      );
-    }
-    return callToAction ? (
-      <>
-        {ticketLink ? (
-          ticketLink === 'special' ? (
-            <p className="performance__ticket-link--outline performance--item">
-              Not available online
-            </p>
-          ) : (
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="performance__ticket-link performance--item"
-              href={ticketLink}
-            >
-              {callToAction}
-            </a>
-          )
-        ) : (
-          <p className="performance__ticket-link--outline performance--item">
-            Coming Soon!
-          </p>
-        )}
-      </>
-    ) : null;
+const generateDate = (date, time) => {
+  const when = new Date(Date.parse(date)).toDateString();
+  return `${when} @ ${time}`;
+};
+
+const Performance = props => {
+  const {
+    callToAction,
+    date,
+    fair,
+    googleMaps,
+    location,
+    soldout,
+    ticketInfo,
+    ticketLink,
+    time,
+    venue,
+  } = props;
+
+  // --[ JSX ]-----------------------------------------------------------------
+  const NotAvailableOnline = () => (
+    <p className="performance__ticket-link--outline performance--item">
+      Not available online
+    </p>
+  );
+
+  const TicketLink = () => (
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      className="performance__ticket-link performance--item"
+      href={ticketLink}
+    >
+      {callToAction}
+    </a>
+  );
+
+  const ComingSoon = () => (
+    <p className="performance__ticket-link--outline performance--item">
+      Coming Soon!
+    </p>
+  );
+
+  const CallToAction = () => {
+    const createTicketLink = cond([
+      [isNil, () => <ComingSoon />],
+      [equals('special'), () => <NotAvailableOnline />],
+      [otherwise, () => <TicketLink />],
+    ]);
+
+    return callToAction ? createTicketLink(ticketLink) : null;
   };
 
   const Availability = () =>
@@ -85,9 +86,9 @@ const Performance = ({
             )}
           </p>
           <p className="performance__venue-details">{ticketInfo}</p>
-          {ticketLink && !pastEvent && <Availability />}
+          {ticketLink && <Availability />}
         </div>
-        {renderCallToAction()}
+        <CallToAction />
       </div>
     </React.Fragment>
   );

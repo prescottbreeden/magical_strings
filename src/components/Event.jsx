@@ -1,11 +1,14 @@
 import React from 'react';
 import Performance from './Performance';
+import { upcomingPerformance } from '../utilities/event.utils';
 
 const Event = props => {
   const { title, description, performances, key } = props;
+
   const alternateTitle = props.performancesTitle
     ? props.performancesTitle
     : 'Performances';
+
   return (
     <React.Fragment key={key}>
       <section className="event">
@@ -20,7 +23,7 @@ const Event = props => {
           <p className="">All times are in PST (Pacific Standard Time)</p>
           <br />
           {performances && performances.length > 0 ? (
-            performances.map((performance, idx) => {
+            performances.filter(upcomingPerformance).map((performance, idx) => {
               return <Performance key={idx} {...performance} />;
             })
           ) : (
