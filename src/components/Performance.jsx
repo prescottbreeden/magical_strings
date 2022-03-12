@@ -3,15 +3,20 @@ import equals from 'ramda/src/equals';
 import cond from 'ramda/src/cond';
 import otherwise from 'ramda/src/T';
 import isNil from 'ramda/src/isNil';
+import pipe from 'ramda/src/pipe';
+import prop from 'ramda/src/prop';
 
 const generateDate = (date, time) => {
   const when = new Date(Date.parse(date)).toDateString();
   return `${when} @ ${time}`;
 };
 
+const noCallToAction = pipe(prop('callToAction'), isNil);
+const noTicketLink = pipe(prop('ticketLink'), isNil);
+const notAvailableOnline = pipe(prop('ticketLink'), equals('special'));
+
 const Performance = props => {
   const {
-    callToAction,
     date,
     fair,
     googleMaps,
@@ -23,14 +28,13 @@ const Performance = props => {
     venue,
   } = props;
 
-  // --[ JSX ]-----------------------------------------------------------------
   const NotAvailableOnline = () => (
     <p className="performance__ticket-link--outline performance--item">
       Not available online
     </p>
   );
 
-  const TicketLink = () => (
+  const TicketLink = ({ ticketLink, callToAction }) => (
     <a
       target="_blank"
       rel="noopener noreferrer"
@@ -47,15 +51,12 @@ const Performance = props => {
     </p>
   );
 
-  const CallToAction = () => {
-    const createTicketLink = cond([
-      [isNil, () => <ComingSoon />],
-      [equals('special'), () => <NotAvailableOnline />],
-      [otherwise, () => <TicketLink />],
-    ]);
-
-    return callToAction ? createTicketLink(ticketLink) : null;
-  };
+  const CallToAction = cond([
+    [noCallToAction, () => null],
+    [noTicketLink, ComingSoon],
+    [notAvailableOnline, NotAvailableOnline],
+    [otherwise, TicketLink],
+  ]);
 
   const Availability = () =>
     fair ? null : soldout ? (
@@ -88,7 +89,7 @@ const Performance = props => {
           <p className="performance__venue-details">{ticketInfo}</p>
           {ticketLink && <Availability />}
         </div>
-        <CallToAction />
+        <CallToAction {...props} />
       </div>
     </React.Fragment>
   );
