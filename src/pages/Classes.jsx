@@ -26,7 +26,11 @@ const Classes = () => {
         <div className="class__container">
           <div className="class">
             <div className="class__info">
-              <h3 className="u-subtitle">When:</h3>
+              <h3 className="u-subtitle">Time:</h3>
+              <h3 className="u-subtitle">{general('time')}</h3>
+            </div>
+            <div className="class__info">
+              <h3 className="u-subtitle">Dates:</h3>
               <h3 className="u-subtitle">
                 {general('start')} &#8212; {general('end')}
               </h3>
@@ -35,10 +39,12 @@ const Classes = () => {
               <h3 className="u-subtitle">Where:</h3>
               <h3 className="u-subtitle">{general('where')}</h3>
             </div>
-            <div className="class__info">
-              <h3 className="u-subtitle">Duration:</h3>
-              <h3 className="u-subtitle">{general('duration')}</h3>
-            </div>
+            {general('duration') && (
+              <div className="class__info">
+                <h3 className="u-subtitle">Duration:</h3>
+                <h3 className="u-subtitle">{general('duration')}</h3>
+              </div>
+            )}
             <div className="class__info">
               <h3 className="u-subtitle">Fee:</h3>
               <h3 className="u-subtitle">{general('fee')}</h3>
@@ -87,11 +93,11 @@ const Classes = () => {
       </section>
       <div className="u-section-break" />
 
-      <div className="page__cta">
+      <div className="page__single-cta">
         <a
           rel="noreferrer"
           target="_blank"
-          className="page__cta--button"
+          className="page__single-cta--button"
           href="mailto:info@magicalstrings.com?subject=Class Inquiry from Website"
         >
           Contact Us!

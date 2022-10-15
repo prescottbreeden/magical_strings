@@ -9,6 +9,8 @@ import Hero from '../components/Hero';
 import eventsPhoto from './../assets/Yuletide2021.png';
 import { eventData } from './../constants/events.json';
 
+const showCovid = false;
+
 const Events = () => {
   // -- local state --
   const [upcomingFilter, setUpcomingFilter] = React.useState(true);
@@ -73,15 +75,17 @@ const Events = () => {
           alt="Magical Strings band memebers at Yuletide in Leavenworth"
         />
         <div className="u-section-break--small" />
-        <div className="covid">
-          <h2 className="covid__title">Safety Update</h2>
-          <p className="covid__description">
-            Magical Strings is committed to providing a safe and comfortable
-            concert experience. Please be sure to check COVID-19 vaccination,
-            exemption, and masking requirements at the venue you plan to attend.
-            We look forward to seeing you!
-          </p>
-        </div>
+        {showCovid && (
+          <div className="covid">
+            <h2 className="covid__title">Safety Update</h2>
+            <p className="covid__description">
+              Magical Strings is committed to providing a safe and comfortable
+              concert experience. Please be sure to check COVID-19 vaccination,
+              exemption, and masking requirements at the venue you plan to
+              attend. We look forward to seeing you!
+            </p>
+          </div>
+        )}
         <div className="u-section-break--small" />
         <div className="event__container">{computedEvents}</div>
       </section>

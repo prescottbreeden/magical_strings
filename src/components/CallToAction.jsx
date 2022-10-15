@@ -6,15 +6,23 @@ const CallToAction = () => {
     <React.Fragment>
       <div className="page__cta">
         <Link className="page__cta--button" to="/events">
-          Upcoming Events
+          Events
         </Link>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="page__cta--button"
+          href="https://www.youtube.com/c/MagicalStrings-harp/featured"
+        >
+          Youtube
+        </a>
         <a
           rel="noreferrer"
           target="_blank"
           className="page__cta--button"
           href="https://www.facebook.com/MagicalStrings"
         >
-          Visit us on Facebook
+          Facebook
         </a>
       </div>
     </React.Fragment>

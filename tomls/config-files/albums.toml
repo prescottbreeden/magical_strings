@@ -1,34 +1,6 @@
 name = "albums"
 
 [[album]]
-album = "278593248"
-name = "good-people-all"
-title = "Good People All"
-
-# ===============================
-
-[[album]]
-album = "3669717315"
-name = "yuletide-live"
-title = "Yuletide Live"
-
-# ===============================
-
-[[album]]
-album = "1558635893"
-name = "celtic-holiday-2cd-set"
-title = "Celtic Holiday 2CD set"
-
-# ===============================
-
-[[album]]
-album = "3669366765"
-name = "celtic-yuletide-celebrating-31-years-live"
-title = "Celtic Yuletide Celebrating 31 Years Live!"
-
-# ===============================
-
-[[album]]
 album = "862198624"
 name = "fairy-wind"
 title = "Fairy Wind"
@@ -144,5 +116,33 @@ title = "Celtic Mist 2CD set"
 album = "2516297162"
 name = "elegance-of-hammered-dulcimer-2cd-set"
 title = "Elegance of Hammered Dulcimer 2CD set"
+
+# ===============================
+
+[[album]]
+album = "3669717315"
+name = "yuletide-live"
+title = "Yuletide Live"
+
+# ===============================
+
+[[album]]
+album = "3669366765"
+name = "celtic-yuletide-celebrating-31-years-live"
+title = "Celtic Yuletide Celebrating 31 Years Live!"
+
+# ===============================
+
+[[album]]
+album = "1558635893"
+name = "celtic-holiday-2cd-set"
+title = "Celtic Holiday 2CD set"
+
+# ===============================
+
+[[album]]
+album = "278593248"
+name = "good-people-all"
+title = "Good People All"
 
 # ===============================
