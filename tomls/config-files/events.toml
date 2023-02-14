@@ -1,6 +1,44 @@
 name = "events"
 
 [[eventData]]
+key = "2023-march-concerts"
+title = "Magical Strings Duo with Irish Dancers"
+description = ['Don’t miss this opportunity to hear the dynamic Celtic duo Magical Strings in Concert, joined by lively Irish dancers from the Tara Academy. Described by the Washington Post as "sonically gorgeous," they will carry you to sublime realms with ancient airs and their own unique compositions, have you “dancing” to lively jigs and reels and share stories and selections from their newest CDs Fairy Wind and Lullaby for a Soul’s Journey.']
+
+[[eventData.performances]]
+date = "3/11/2023"
+time = "7:00pm"
+venue = "Olalla Community Club"
+callToAction = "Join Us"
+ticketLink = "https://www.olallacommunityclub.org"
+location = "Olalla, WA"
+googleMaps = "https://goo.gl/maps/w8Jdz2pDB4Gca2iW8"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "3/18/2023"
+time = "7:30pm"
+venue = "Tim Noah Thumbnail Theatre"
+callToAction = "Buy Tickets"
+ticketLink = "https://www.thumbnailtheater.org/"
+location = "Snohomish, WA"
+googleMaps = "https://goo.gl/maps/VjzjTbQVWBqijfgSA"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "3/19/2023"
+time = "3:30pm"
+venue = "Kenyon Hall"
+callToAction = "Buy Tickets"
+ticketLink = "http://www.kenyonhall.org/"
+location = "West Seattle, WA"
+googleMaps = "https://goo.gl/maps/Q5gqFLaY7WQeypWX8"
+ticketInfo = ""
+soldout = false
+
+[[eventData]]
 key = "2022-celctic-yuletide"
 title = "44th Annual Celtic Yuletide"
 description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 44th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."]
