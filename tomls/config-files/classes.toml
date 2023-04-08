@@ -2,17 +2,17 @@ name = "classes"
 
 [generalClassInfo]
 name = "School of Magical Strings"
-term = "Fall Term 2022"
+term = "Spring Term 2023"
 time = "Tuesdays, 6-7pm PST"
-start = "October 25"
-end = "November 29"
+start = "April 18"
+end = "May 23"
 where = "Virtually on Zoom"
-fee = "$185"
+fee = "$195"
 description =[
-  "Welcome and Farewell – Carolan’s Legacy",
-  "This class is open to all levels of players. We will explore some of the more unusual compositions by this beloved Irish harper-composer from the 17 th century, Turlough O’ Carolan. His pieces ‘Carolan’s Welcome’ and especially his last piece ‘Carolan’s Farewell to Music’ (composed upon his death bed) are unique in his repertoire, and we will pay special attention to these. His first composition ‘Si Beg Si Mor’ (a tribute to the faery kingdom) is much loved by Irish musicians everywhere. Parallel to this I will delve a bit into two of my own compositions, ‘Rowan’s Welcome’ (a lullaby for our first grandchild) and ‘Farewell’ (a tribute to my father upon his death). We will see how music becomes for us not only a guide, but a deeply consoling companion through the milestones of life.",
+  "Spring Joy and Contemplation",
+  "This class is open to all levels of players. The theme implies that we can use the harp for more than emotional expression, but as a vehicle for thought, while nature blossoms forth and we contemplate archetypes within the grand mystery of music! We will explore a variety of repertoire, from Carolan’s lively “Morgan Megan” to my own “Harp of Cil Rialaig” inspired in Ireland; pieces I have never taught before. The levels of playing for these pieces ranges from very simple to complex. Beginners, do not fret! There is material here for you; the rest of it may sink in, like different layers of a cake, including the little sprinkles of musical philosophy, but don’t let that overwhelm you. Also, know that the classes are all recorded for the benefit of future reference for every student.",
   "A Note to Beginners: There is much in this content that you will be able to learn; and other parts that will seem more advanced. In preparation for this class, I highly recommend that you review my beginner’s instructional harp video, ‘Magic of the Celtic Harp’. This hour and a half video covers all the basic fingering exercises for scales and arpeggio’s, plus instruction on how to play the first two Welsh tunes, #1 and #2. All those who register will be sent this link.",
-  "The class fee for the six-week term is $185.",
+  "The class fee for the six-week term is $195.",
   "Contact us to register!"
 ]
 
