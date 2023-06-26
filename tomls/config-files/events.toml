@@ -1,5 +1,124 @@
 name = "events"
 
+# =========================================================
+
+[[eventData]]
+key = "2023-harp-camp"
+title = "Virtual Magic Hill Harp Camp 2023: Airs in Paris - Harp tunes for Patrons"
+description = [
+  'We are happy to present our 4th Annual Virtual Harp Camp from Magic Hill, which will consist of several zoom sessions over a three-day period, Friday-Sunday. Students who register will be able to attend all sessions. At least a basic working knowledge of the harp and technique is advised, but anyone can participate. There will be time for instruction, questions and practice.',
+  'The repertoire will come from two harper-composers, Boulding and Carolan, who often added a jig version following a tune written for a particular patron. Carolan’s delightful “Michael O’Conner” is a good example, which Philip will teach for the first time, along with two of his own, “Barbara’s Cottage” (composed in Ireland for a patron) and “Celestial Winds” (composed for a wedding on a sailboat in the NW). New exercises will be given, with emphasis on arranging, accompaniment playing, and improvisation. ‘Airs in Pairs’ will explore how to extract a theme from a particular piece and morph it into another form.',
+  'There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend. We will have an ‘in-person’ fire circle on Saturday night, where we’ll share some music, songs and stories from Magical Strings and guests, and any students who can attend!',
+  'All music and materials will be emailed to registrants in advance. Site-reading skills are not essential, but would be helpful. Don’t worry if you can’t digest all the material given – it will be taught in ‘bite- size’ pieces, and everyone will receive something of value. The sessions will also be recorded and made available to students after the camp is done. The most important thing is to have fun!',
+  'The cost is $195 for the entire camp. Please send us an email if you would like to reserve a place: info@magicalstrings.com . Payment can be made either by check made out to Magical Strings, PO Box 1240, Olalla, WA 98359, or directly to our PayPal account at www.paypal.me/magicalstrings . When we receive your payment, we will send you a confirmation by email. Payments are due by July 21.'
+]
+performancesTitle = "Sessions"
+
+[[eventData.performances]]
+date = "8/11/2023"
+time = "3:00pm-4:00pm"
+venue = "Introduction, overview, get used to zoom, exercises, etc."
+callToAction = "Zoom"
+ticketLink = ""
+location = "Session #1"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/11/2023"
+time = "5:00pm-6:00pm"
+venue = "Instruction, questions, and practice"
+callToAction = "Zoom"
+ticketLink = ""
+location = "Session #2"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/11/2023"
+time = "7:00pm-8:00pm"
+venue = "Conversation: 3 bardic moods, 3 soul forces, 3 elements of music"
+callToAction = "Zoom"
+ticketLink = ""
+location = "Session #3"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+# ---------------------------------------------------------
+
+[[eventData.performances]]
+date = "8/12/2023"
+time = "9:00am-10:00am"
+venue = "Instruction, questions, and practice"
+callToAction = "Zoom"
+ticketLink = ""
+location = "Session #4"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/12/2023"
+time = "11:00am-12:00pm"
+venue = "Instruction, questions, and practice"
+callToAction = "Zoom"
+ticketLink = ""
+location = "Session #5"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/12/2023"
+time = "2:00pm-3:00pm"
+venue = "Instruction, questions, and practice"
+location = "Session #6"
+ticketLink = ""
+callToAction = "Zoom"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/12/2023"
+time = "4:00pm-5:00pm"
+venue = "Instruction, questions, and practice"
+location = "Session #7"
+ticketLink = ""
+callToAction = "Zoom"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "8/12/2023"
+time = "8:00pm"
+venue = "Music, storytelling, and sing-alongs by Magical Strings and guests"
+location = "Fire Circle"
+ticketLink = ""
+callToAction = "Zoom"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+# ---------------------------------------------------------
+
+[[eventData.performances]]
+date = "8/13/2023"
+time = "10:30am-12:00pm"
+venue = "Final group session"
+location = "Session #8"
+ticketLink = ""
+callToAction = "Zoom"
+googleMaps = ""
+ticketInfo = ""
+soldout = false
+
+# =========================================================
+
 [[eventData]]
 key = "2023-march-concerts"
 title = "Magical Strings Duo with Irish Dancers"
@@ -37,6 +156,8 @@ location = "West Seattle, WA"
 googleMaps = "https://goo.gl/maps/Q5gqFLaY7WQeypWX8"
 ticketInfo = ""
 soldout = false
+
+# =========================================================
 
 [[eventData]]
 key = "2022-celctic-yuletide"

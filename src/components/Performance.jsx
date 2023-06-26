@@ -34,16 +34,21 @@ const Performance = props => {
     </p>
   );
 
-  const TicketLink = ({ ticketLink, callToAction }) => (
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      className="performance__ticket-link performance--item"
-      href={ticketLink}
-    >
-      {callToAction}
-    </a>
-  );
+  const TicketLink = ({ ticketLink, callToAction }) =>
+    ticketLink ? (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        className="performance__ticket-link performance--item"
+        href={ticketLink}
+      >
+        {callToAction}
+      </a>
+    ) : (
+      <p className="performance__ticket-link performance--item">
+        {callToAction}
+      </p>
+    );
 
   const ComingSoon = () => (
     <p className="performance__ticket-link--outline performance--item">
