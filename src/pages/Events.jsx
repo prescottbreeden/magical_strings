@@ -7,7 +7,8 @@ import {
 } from '../utilities/event.utils';
 import Hero from '../components/Hero';
 // import eventsPhoto from './../assets/Yuletide2021.png';
-import eventsPhoto from './../assets/duo_with_dancers_3.jpg';
+// import eventsPhoto from './../assets/duo_with_dancers_3.jpg';
+import eventsPhoto from './../assets/philip_harps_opt.jpg';
 import { eventData } from './../constants/events.json';
 
 const showCovid = false;
