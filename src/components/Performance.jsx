@@ -15,6 +15,39 @@ const noCallToAction = pipe(prop('callToAction'), isNil);
 const noTicketLink = pipe(prop('ticketLink'), isNil);
 const notAvailableOnline = pipe(prop('ticketLink'), equals('special'));
 
+const NotAvailableOnline = () => (
+  <p className="performance__ticket-link--outline performance--item">
+    Not available online
+  </p>
+);
+
+const TicketLink = ({ ticketLink, callToAction }) =>
+  ticketLink ? (
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      className="performance__ticket-link performance--item"
+      href={ticketLink}
+    >
+      {callToAction}
+    </a>
+  ) : (
+    <p className="performance__ticket-link performance--item">{callToAction}</p>
+  );
+
+const ComingSoon = () => (
+  <p className="performance__ticket-link--outline performance--item">
+    Coming Soon!
+  </p>
+);
+
+const CallToAction = cond([
+  [noCallToAction, () => null],
+  [noTicketLink, ComingSoon],
+  [notAvailableOnline, NotAvailableOnline],
+  [otherwise, TicketLink],
+]);
+
 const Performance = props => {
   const {
     date,
@@ -27,41 +60,6 @@ const Performance = props => {
     time,
     venue,
   } = props;
-
-  const NotAvailableOnline = () => (
-    <p className="performance__ticket-link--outline performance--item">
-      Not available online
-    </p>
-  );
-
-  const TicketLink = ({ ticketLink, callToAction }) =>
-    ticketLink ? (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        className="performance__ticket-link performance--item"
-        href={ticketLink}
-      >
-        {callToAction}
-      </a>
-    ) : (
-      <p className="performance__ticket-link performance--item">
-        {callToAction}
-      </p>
-    );
-
-  const ComingSoon = () => (
-    <p className="performance__ticket-link--outline performance--item">
-      Coming Soon!
-    </p>
-  );
-
-  const CallToAction = cond([
-    [noCallToAction, () => null],
-    [noTicketLink, ComingSoon],
-    [notAvailableOnline, NotAvailableOnline],
-    [otherwise, TicketLink],
-  ]);
 
   const Availability = () =>
     fair ? null : soldout ? (

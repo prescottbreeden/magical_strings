@@ -2,6 +2,70 @@
   "name": "events",
   "eventData": [
     {
+      "key": "2023-celctic-yuletide",
+      "title": "45th Annual Celtic Yuletide",
+      "description": [
+        "Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 44th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."
+      ],
+      "performances": [
+        {
+          "date": "12/3/2023",
+          "time": "3:00pm",
+          "venue": "Kent-Meridian Performing Arts Center",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://www.kentwa.gov/departments/kent-parks/arts/spotlight-series",
+          "location": "Kent, WA",
+          "googleMaps": "https://goo.gl/maps/yM929bW6NAXNCKL56",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/10/2023",
+          "time": "3:00pm",
+          "venue": "Shorewood Theatre",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://emeraldcityarts.ticketleap.com/magical-strings-celtic-yuletide/",
+          "location": "Shoreline, WA",
+          "googleMaps": "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/17/2023",
+          "time": "3:00pm",
+          "venue": "The Historic Lincoln Theatre",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://lincolntheatre.org/holiday-concert-magical-strings-celtic-yuletide-2023",
+          "location": "Mount Vernon, WA",
+          "googleMaps": "https://g.page/LincolnTheatreMVWA?share",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/21/2023",
+          "time": "7:30pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SHp00000fvsAbMAI",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/22/2023",
+          "time": "7:30pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SHp00000fvsAbMAI",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "soldout": false
+        }
+      ]
+    },
+    {
       "key": "2023-harp-camp",
       "title": "Virtual Magic Hill Harp Camp 2023: Airs in Pairs - Harp tunes for Patrons",
       "description": [
