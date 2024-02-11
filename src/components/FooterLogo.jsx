@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './../assets/MSLogo_Lg.gif';
 
-const FooterLogo = props => {
-  return (
-    <React.Fragment>
-      <img src={logo} alt="Magical Strings logo" className="footer__logo" />
-    </React.Fragment>
-  );
+/**
+ * Renders the logo that is in the footer
+ */
+const FooterLogo = () => {
+  return <img src={logo} alt="Magical Strings logo" className="footer__logo" />;
 };
 
 export default FooterLogo;

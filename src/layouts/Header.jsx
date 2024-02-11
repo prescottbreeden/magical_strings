@@ -39,9 +39,6 @@ const Header = () => {
           Contact
         </NavLink>
       </nav>
-      <h4 className="header__nav--right">
-        Celtic Yuletide Tickets On-Sale Now!
-      </h4>
     </div>
   );
 };
