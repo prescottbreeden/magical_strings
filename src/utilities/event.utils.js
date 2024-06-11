@@ -1,6 +1,6 @@
 // findLastConcert :: Event -> string
 export const findLastConcert = event => {
-  const res = event.performances.reduce((acc, curr) => {
+  const res = (event.performances ?? []).reduce((acc, curr) => {
     return Date.parse(curr.date) > Date.parse(acc) ? curr.date : acc;
   }, new Date().toString());
   return res;

@@ -2,6 +2,119 @@
   "name": "events",
   "eventData": [
     {
+      "key": "2024-harp-camp",
+      "title": "\"Harp a la Modes!” - Virtual Magic Hill Harp Camp 2024",
+      "performancesTitle": "Classes",
+      "description": [
+        "No, we aren’t talking about ice cream or fashion – it’s about how the harp is uniquely set up to take advantage of the archetypal modes and their profound expression in music through the centuries. We are happy to present our 4th Annual Virtual Harp Camp from Magic Hill, which will consist of several zoom sessions over a three-day period, Friday-Sunday. Students who register will be able to attend all sessions. At least a basic working knowledge of the harp and technique is advised, but anyone can participate. There will be time for instruction, questions and practice.",
+        "The repertoire consists of pieces that will cover four of the common modes used in traditional music: Ionian, Dorian, Mixolydian, and Aolean, with the intent of de-mystifying the simplicity behind modes, which are all derived from the common diatonic scale. Each mode has a specific ‘character’ or mood it tends to convey through the music that emerges from it. For example, a minor mode (aolean) tends to sound somber or sad, whereas a major mode (ionian) tends to sound joyful, exuberant; granted these are very simplistic characterizations, which become more complex and subtle depending on each individual piece of music – and how it is played. A piece can also ‘modulate’ from one mode to another. Improvisation will be encouraged!",
+        "There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend. We will have an ‘in-person’ fire circle on Saturday night, where we’ll share some music, songs and stories from Magical Strings and guests, and any students who can attend!",
+        "All music and materials will be emailed to registrants in advance. Site-reading skills are not essential, but would be helpful. Don’t worry if you can’t digest all the material given – it will be taught in ‘bite- size’ pieces, and everyone will receive something of value. The sessions will also be recorded and made available to students after the camp is done. The most important thing is to have fun!",
+        "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!"
+      ],
+      "performances": [
+        {
+          "date": "8/16/2024",
+          "time": "3:00pm-4:00pm",
+          "venue": "Introduction, overview, get used to zoom, exercises, etc.",
+          "callToAction": "Zoom",
+          "ticketLink": "",
+          "location": "Session #1",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/16/2024",
+          "time": "5:00pm-6:00pm",
+          "venue": "Instruction, questions, and practice",
+          "callToAction": "Zoom",
+          "ticketLink": "",
+          "location": "Session #2",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/16/2024",
+          "time": "7:00pm-8:00pm",
+          "venue": "Conversation: 3 bardic moods, 3 elements of music, and modes",
+          "callToAction": "Zoom",
+          "ticketLink": "",
+          "location": "Session #3",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/17/2024",
+          "time": "9:00am-10:00am",
+          "venue": "Instruction, questions, and practice",
+          "callToAction": "Zoom",
+          "ticketLink": "",
+          "location": "Session #4",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/17/2024",
+          "time": "11:00am-12:00pm",
+          "venue": "Instruction, questions, and practice",
+          "callToAction": "Zoom",
+          "ticketLink": "",
+          "location": "Session #5",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/17/2024",
+          "time": "2:00pm-3:00pm",
+          "venue": "Instruction, questions, and practice",
+          "location": "Session #6",
+          "ticketLink": "",
+          "callToAction": "Zoom",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/17/2024",
+          "time": "4:00pm-5:00pm",
+          "venue": "Instruction, questions, and practice",
+          "location": "Session #7",
+          "ticketLink": "",
+          "callToAction": "Zoom",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/17/2024",
+          "time": "8:00pm",
+          "venue": "Music, storytelling, and sing-alongs by Magical Strings and guests",
+          "location": "Fire Circle",
+          "ticketLink": "",
+          "callToAction": "Zoom",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "8/18/2024",
+          "time": "10:30am-12:00pm",
+          "venue": "Final group session",
+          "location": "Session #8",
+          "ticketLink": "",
+          "callToAction": "Zoom",
+          "googleMaps": "",
+          "ticketInfo": "",
+          "soldout": false
+        }
+      ]
+    },
+    {
       "key": "2024-march-concerts",
       "title": "March Concerts with Irish Dancers",
       "description": [
