@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27b4d40a.chunk.css",
+    "main.js": "/static/js/main.7b8f4690.chunk.js",
+    "main.js.map": "/static/js/main.7b8f4690.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf6d0827.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf6d0827.js.map",
+    "static/js/2.ad24c7c1.chunk.js": "/static/js/2.ad24c7c1.chunk.js",
+    "static/js/2.ad24c7c1.chunk.js.map": "/static/js/2.ad24c7c1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.27b4d40a.chunk.css.map": "/static/css/main.27b4d40a.chunk.css.map",
+    "static/js/2.ad24c7c1.chunk.js.LICENSE.txt": "/static/js/2.ad24c7c1.chunk.js.LICENSE.txt",
+    "static/media/MSLogo_Lg.5557f963.gif": "/static/media/MSLogo_Lg.5557f963.gif",
+    "static/media/MagicalStringsGroup_opt.68b53d3b.jpg": "/static/media/MagicalStringsGroup_opt.68b53d3b.jpg",
+    "static/media/index.css": "/static/media/loading.554c5841.gif",
+    "static/media/ms_events.55b6248a.jpg": "/static/media/ms_events.55b6248a.jpg",
+    "static/media/philip_harps_opt.6d15d0fd.jpg": "/static/media/philip_harps_opt.6d15d0fd.jpg",
+    "static/media/underconstruction.c8c8bbb6.png": "/static/media/underconstruction.c8c8bbb6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf6d0827.js",
+    "static/js/2.ad24c7c1.chunk.js",
+    "static/css/main.27b4d40a.chunk.css",
+    "static/js/main.7b8f4690.chunk.js"
+  ]
+}
