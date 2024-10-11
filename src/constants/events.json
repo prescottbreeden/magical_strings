@@ -2,6 +2,92 @@
   "name": "events",
   "eventData": [
     {
+      "key": "concert-in-the-woods-2024",
+      "title": "Concerts in the Woods",
+      "description": [
+        "Music the way music should be enjoyed - in a comfortable, intimate setting.",
+        "Concert information: (360) 765-3449",
+        "Email:  info@coyleconcerts.com"
+      ],
+      "performances": [
+        {
+          "date": "11/9/2024",
+          "time": "3:00pm",
+          "venue": "Laurel B. Johnson Community Center",
+          "callToAction": "Call to Reserve",
+          "ticketLink": "https://coyleconcerts.com/upcomingshows/",
+          "location": "Coyle, WA",
+          "googleMaps": "https://maps.app.goo.gl/REuSK9x7ZtyQJuuw5",
+          "ticketInfo": "",
+          "soldout": false
+        }
+      ]
+    },
+    {
+      "key": "2024-celctic-yuletide",
+      "title": "46th Annual Celtic Yuletide",
+      "description": [
+        "Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh. returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 46th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!"
+      ],
+      "performances": [
+        {
+          "date": "12/8/2024",
+          "time": "3:00pm",
+          "venue": "Kent-Meridian Performing Arts Center",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://www.kentwa.gov/departments/kent-parks/arts/spotlight-series",
+          "location": "Kent, WA",
+          "googleMaps": "https://goo.gl/maps/yM929bW6NAXNCKL56",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/15/2024",
+          "time": "3:00pm",
+          "venue": "Shorewood Theatre",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://www.ticketleap.events/tickets/emeraldcityarts/magical-strings-celtic-yuletide-398813094",
+          "location": "Shoreline, WA",
+          "googleMaps": "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/19/2024",
+          "time": "7:30pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH000003StUT2A0",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/20/2024",
+          "time": "7:30pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH000003StUT2A0",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/22/2024",
+          "time": "3:00pm",
+          "venue": "The Historic Lincoln Theatre",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://lincolntheatre.org/holiday-concert-magical-strings-celtic-yuletide-2024",
+          "location": "Mount Vernon, WA",
+          "googleMaps": "https://g.page/LincolnTheatreMVWA?share",
+          "ticketInfo": "",
+          "soldout": false
+        }
+      ]
+    },
+    {
       "key": "2024-harp-camp",
       "title": "\"Harp a la Modes!” - Virtual Magic Hill Harp Camp 2024",
       "performancesTitle": "Classes",
