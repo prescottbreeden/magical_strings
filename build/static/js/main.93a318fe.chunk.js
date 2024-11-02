@@ -495,15 +495,16 @@
             e.key
           );
         },
-        Z = a(30),
-        E = function() {
+        Z = a.p + 'static/media/2022_yuletide.b70ab8e4.jpg',
+        E = a(30),
+        G = function() {
           var e = n.a.useState(!0),
             t = Object(j.a)(e, 2),
             a =
               (t[0],
               t[1],
               n.a.useState(function() {
-                return q(Z.a);
+                return q(E.a);
               })),
             i = Object(j.a)(a, 2),
             o = i[0];
@@ -528,7 +529,7 @@
                   children: 'Events & Tickets',
                 }),
                 Object(h.jsx)(m, {
-                  photo: u,
+                  photo: Z,
                   alt:
                     'Magical Strings band memebers at Yuletide in Leavenworth',
                 }),
@@ -543,35 +544,35 @@
             }),
           });
         },
-        G = a(51),
-        K = a(52),
-        Q = a(53),
-        V = a(57),
-        R = a.p + 'static/media/underconstruction.c8c8bbb6.png',
-        z = function() {
+        K = a(51),
+        Q = a(52),
+        V = a(53),
+        R = a(57),
+        z = a.p + 'static/media/underconstruction.c8c8bbb6.png',
+        U = function() {
           return Object(h.jsx)(n.a.Fragment, {
             children: Object(h.jsx)('div', {
               className: 'under-construction',
               children: Object(h.jsx)('img', {
-                src: R,
+                src: z,
                 alt: 'Under Construction',
                 className: 'under-construction__img',
               }),
             }),
           });
         },
-        U = (function(e) {
-          Object(Q.a)(a, e);
-          var t = Object(V.a)(a);
+        X = (function(e) {
+          Object(V.a)(a, e);
+          var t = Object(R.a)(a);
           function a() {
             var e;
-            Object(G.a)(this, a);
+            Object(K.a)(this, a);
             for (var i = arguments.length, n = new Array(i), o = 0; o < i; o++)
               n[o] = arguments[o];
             return ((e = t.call.apply(t, [this].concat(n))).state = {}), e;
           }
           return (
-            Object(K.a)(a, [
+            Object(Q.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -583,7 +584,7 @@
                           className: 'page__title',
                           children: 'Harps and Dulcimers',
                         }),
-                        Object(h.jsx)(z, {}),
+                        Object(h.jsx)(U, {}),
                       ],
                     }),
                   });
@@ -593,8 +594,8 @@
             a
           );
         })(i.Component),
-        X = U,
-        $ = function() {
+        $ = X,
+        ee = function() {
           return Object(h.jsxs)('section', {
             className: 'about',
             children: [
@@ -610,7 +611,7 @@
             ],
           });
         },
-        ee = function() {
+        te = function() {
           return Object(h.jsxs)('div', {
             className: 'page__cta',
             children: [
@@ -636,27 +637,27 @@
             ],
           });
         },
-        te = a.p + 'static/media/MagicalStringsGroup_opt.68b53d3b.jpg',
-        ae = function() {
+        ae = a.p + 'static/media/MagicalStringsGroup_opt.68b53d3b.jpg',
+        ie = function() {
           return Object(h.jsxs)(n.a.Fragment, {
             children: [
               Object(h.jsx)(m, {
-                photo: te,
+                photo: ae,
                 alt: 'Magical Strings Yuletide family',
               }),
-              Object(h.jsx)($, {}),
               Object(h.jsx)(ee, {}),
+              Object(h.jsx)(te, {}),
             ],
           });
         },
-        ie = a(55),
-        ne = a(21),
-        oe = a(99),
-        se = a(102),
-        le = a(22),
-        ce = a(100),
-        re =
-          (Object(oe.a)(function(e, t) {
+        ne = a(55),
+        oe = a(21),
+        se = a(99),
+        le = a(102),
+        ce = a(22),
+        re = a(100),
+        de =
+          (Object(se.a)(function(e, t) {
             return console.log(e, t), t;
           }),
           function() {
@@ -668,29 +669,29 @@
               }, e);
             };
           }),
-        de = Object(oe.a)(function(e, t) {
+        he = Object(se.a)(function(e, t) {
           return t ? t[e] : void 0;
         }),
-        he = Object(oe.a)(function(e, t) {
-          return Object(ne.a)({}, e, t);
+        me = Object(se.a)(function(e, t) {
+          return Object(oe.a)({}, e, t);
         }),
-        me =
-          (re(Object(se.a)(he, [de('name'), de('value')]), de('target')),
-          Object(oe.a)(function(e, t) {
+        ue =
+          (de(Object(le.a)(me, [he('name'), he('value')]), he('target')),
+          Object(se.a)(function(e, t) {
             return e.map(function(e) {
               return e.id === t.id ? t : e;
             });
           }),
-          Object(le.a)(function(e, t) {
+          Object(ce.a)(function(e, t) {
             return e ? t : e;
           }, !0),
-          re(
-            Object(ce.a)(
+          de(
+            Object(re.a)(
               Math.random()
                 .toString(36)
                 .substring(7)
             ),
-            de('id')
+            he('id')
           ),
           function() {
             return Object(h.jsx)(n.a.Fragment, {
@@ -708,7 +709,7 @@
                         a =
                           ((t = e),
                           function(e) {
-                            return de(e, t);
+                            return he(e, t);
                           });
                       return Object(h.jsx)(
                         'div',
@@ -732,13 +733,13 @@
                         },
                         a('title')
                       );
-                    }, ie.a),
+                    }, ne.a),
                   }),
                 ],
               }),
             });
           }),
-        ue = function() {
+        pe = function() {
           var e = {
             backgroundColor: '#738c31',
             borderRadius: '3px',
@@ -794,20 +795,20 @@
             ],
           });
         },
-        pe = a.p + 'static/media/MSLogo_Lg.5557f963.gif',
-        ge = function() {
+        ge = a.p + 'static/media/MSLogo_Lg.5557f963.gif',
+        fe = function() {
           return Object(h.jsx)('img', {
-            src: pe,
+            src: ge,
             alt: 'Magical Strings logo',
             className: 'footer__logo',
           });
         },
-        fe = function() {
+        be = function() {
           var e = new Date().getFullYear();
           return Object(h.jsxs)('footer', {
             className: 'footer',
             children: [
-              Object(h.jsx)(ge, {}),
+              Object(h.jsx)(fe, {}),
               Object(h.jsx)('div', { style: { height: '2rem' } }),
               Object(h.jsxs)('form', {
                 action: 'https://www.paypal.com/donate',
@@ -853,7 +854,7 @@
             ],
           });
         },
-        be = function(e) {
+        je = function(e) {
           var t = e.children;
           return Object(h.jsx)(h.Fragment, {
             children: Object(h.jsx)('div', {
@@ -862,14 +863,14 @@
             }),
           });
         };
-      var je = function() {
+      var ye = function() {
         return Object(h.jsx)('div', {
           children: Object(h.jsxs)(l.a, {
             children: [
-              Object(h.jsx)(ue, {}),
-              Object(h.jsxs)(be, {
+              Object(h.jsx)(pe, {}),
+              Object(h.jsxs)(je, {
                 children: [
-                  Object(h.jsx)(c.a, { path: '/', exact: !0, component: ae }),
+                  Object(h.jsx)(c.a, { path: '/', exact: !0, component: ie }),
                   Object(h.jsx)(c.a, {
                     path: '/classes',
                     exact: !0,
@@ -880,16 +881,16 @@
                     exact: !0,
                     component: b,
                   }),
-                  Object(h.jsx)(c.a, { path: '/events', component: E }),
+                  Object(h.jsx)(c.a, { path: '/events', component: G }),
                   Object(h.jsx)(c.a, {
                     path: '/harpshop',
                     exact: !0,
-                    component: X,
+                    component: $,
                   }),
-                  Object(h.jsx)(c.a, { path: '/recordings', component: me }),
+                  Object(h.jsx)(c.a, { path: '/recordings', component: ue }),
                 ],
               }),
-              Object(h.jsx)(fe, {}),
+              Object(h.jsx)(be, {}),
             ],
           }),
         });
@@ -901,7 +902,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      s.a.render(Object(h.jsx)(je, {}), document.getElementById('root')),
+      s.a.render(Object(h.jsx)(ye, {}), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();
@@ -910,4 +911,4 @@
   },
   [[97, 1, 2]],
 ]);
-//# sourceMappingURL=main.d8c21a48.chunk.js.map
+//# sourceMappingURL=main.93a318fe.chunk.js.map

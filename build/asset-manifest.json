@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.27b4d40a.chunk.css",
-    "main.js": "/static/js/main.d8c21a48.chunk.js",
-    "main.js.map": "/static/js/main.d8c21a48.chunk.js.map",
+    "main.js": "/static/js/main.93a318fe.chunk.js",
+    "main.js.map": "/static/js/main.93a318fe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf6d0827.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf6d0827.js.map",
     "static/js/2.ad24c7c1.chunk.js": "/static/js/2.ad24c7c1.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.27b4d40a.chunk.css.map": "/static/css/main.27b4d40a.chunk.css.map",
     "static/js/2.ad24c7c1.chunk.js.LICENSE.txt": "/static/js/2.ad24c7c1.chunk.js.LICENSE.txt",
+    "static/media/2022_yuletide.b70ab8e4.jpg": "/static/media/2022_yuletide.b70ab8e4.jpg",
     "static/media/MSLogo_Lg.5557f963.gif": "/static/media/MSLogo_Lg.5557f963.gif",
     "static/media/MagicalStringsGroup_opt.68b53d3b.jpg": "/static/media/MagicalStringsGroup_opt.68b53d3b.jpg",
     "static/media/index.css": "/static/media/loading.554c5841.gif",
@@ -21,6 +22,6 @@
     "static/js/runtime-main.bf6d0827.js",
     "static/js/2.ad24c7c1.chunk.js",
     "static/css/main.27b4d40a.chunk.css",
-    "static/js/main.d8c21a48.chunk.js"
+    "static/js/main.93a318fe.chunk.js"
   ]
 }
