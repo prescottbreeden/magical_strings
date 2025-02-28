@@ -2,6 +2,51 @@
   "name": "events",
   "eventData": [
     {
+      "key": "st-patricks-2025",
+      "title": "Magical Strings Celebrates St. Patrick's Day",
+      "description": [
+        "March is just around the corner, and we are looking forward to celebrating St. Patrick’s Day this year with three concerts featuring Irish dancers from the Tara Academy, along with fiddlers from our Yuletide retinue! Lively dance tunes and soulful airs will get your feet tapping and heart filled with the bright spirit of the Irish!"
+      ],
+      "performances": [
+        {
+          "date": "3/9/2025",
+          "time": "4:00pm",
+          "venue": "Thumbnail Theatre",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://ticketpeak.co/tntt/events/10000-Magical%20Strings/30802",
+          "location": "Snohomish, WA",
+          "googleMaps": "https://g.page/thumbnail-theater-snohomish?share",
+          "ticketInfo": "",
+          "soldout": false,
+          "fair": false
+        },
+        {
+          "date": "3/15/2025",
+          "time": "7:00pm",
+          "venue": "Olalla Community Club",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://www.zeffy.com/en-US/ticketing/magical-strings-concert",
+          "location": "Olalla, WA",
+          "googleMaps": "https://goo.gl/maps/w8Jdz2pDB4Gca2iW8",
+          "ticketInfo": "",
+          "soldout": false,
+          "fair": false
+        },
+        {
+          "date": "3/16/2025",
+          "time": "2:30pm",
+          "venue": "Kenyon Hall",
+          "callToAction": "Buy Tickets",
+          "ticketLink": "https://donorbox.org/events/721546/steps/choose_tickets",
+          "location": "Seattle, WA",
+          "googleMaps": "https://goo.gl/maps/Q5gqFLaY7WQeypWX8",
+          "ticketInfo": "",
+          "soldout": false,
+          "fair": false
+        }
+      ]
+    },
+    {
       "key": "concert-in-the-woods-2024",
       "title": "Concerts in the Woods",
       "description": [
