@@ -3,6 +3,107 @@ name = "events"
 # =========================================================
 
 [[eventData]]
+key = "2025-celtic-yuletide"
+title = "47th Annual Celtic Yuletide"
+description = [
+  "Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh. returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 47th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!",
+]
+
+[[eventData.performances]]
+date = "12/7/2025"
+time = "3:00pm"
+venue = "Kent-Meridian Performing Arts Center"
+callToAction = "More Info Soon"
+location = "Kent, WA"
+googleMaps = "https://goo.gl/maps/yM929bW6NAXNCKL56"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "12/14/2025"
+time = "3:00pm"
+venue = "Shorewood Theatre"
+callToAction = "More Info Soon"
+location = "Shoreline, WA"
+googleMaps = "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "12/18/2025"
+time = "7:30pm"
+venue = "Snowy Owl Theater – Icicle Creek Center for the Arts"
+callToAction = "More Info Soon"
+location = "Leavenworth, WA"
+googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "12/19/2025"
+time = "7:30pm"
+venue = "Snowy Owl Theater – Icicle Creek Center for the Arts"
+callToAction = "More Info Soon"
+location = "Leavenworth, WA"
+googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
+ticketInfo = ""
+soldout = false
+
+[[eventData.performances]]
+date = "12/21/2025"
+time = "3:00pm"
+venue = "The Historic Lincoln Theatre"
+callToAction = "More Info Soon"
+location = "Mount Vernon, WA"
+googleMaps = "https://g.page/LincolnTheatreMVWA?share"
+ticketInfo = ""
+soldout = false
+
+# =========================================================
+
+
+[[eventData]]
+key = "traditions-fair-trade-2025"
+title = "Magical Strings"
+description = [
+  "Celtic Harp, Hammered dulcimers, whistles, concertinas and more",
+  "Soul Cafe Serving Dinner & Drinks",
+]
+
+[[eventData.performances]]
+date = "10/11/2025"
+time = "7:00pm"
+venue = "Traditions Fair Trade"
+callToAction = ""
+ticketLink = "https://newtraditionsfairtrade.com/pages/events#calendar-7513213e-ad2b-4e4e-8078-d5ad718af253-event-m8z78b48"
+location = "Olympia, WA"
+googleMaps = "https://maps.app.goo.gl/pK8rqwhv7BabuasF6"
+ticketInfo = "$25 / $15 for students & those w/low incomes"
+soldout = false
+
+[[eventData]]
+key = "concert-in-the-woods-2025"
+title = "Concerts in the Woods"
+description = [
+  "Music the way music should be enjoyed - in a comfortable, intimate setting.",
+  "Concert information: (360) 765-3449",
+  "Email:  info@coyleconcerts.com",
+]
+
+[[eventData.performances]]
+date = "11/1/2024"
+time = "3:00pm"
+venue = "Laurel B. Johnson Community Center"
+callToAction = "Call to Reserve"
+ticketLink = ""
+location = "Coyle, WA"
+googleMaps = "https://maps.app.goo.gl/REuSK9x7ZtyQJuuw5"
+ticketInfo = ""
+soldout = false
+
+# =========================================================
+
+[[eventData]]
 key = "st-patricks-2025"
 title = "Magical Strings Celebrates St. Patrick's Day"
 description = [
@@ -53,8 +154,8 @@ title = "Concerts in the Woods"
 description = [
   "Music the way music should be enjoyed - in a comfortable, intimate setting.",
   "Concert information: (360) 765-3449",
-  "Email:  info@coyleconcerts.com"
-  ]
+  "Email:  info@coyleconcerts.com",
+]
 
 [[eventData.performances]]
 date = "11/9/2024"
@@ -72,7 +173,9 @@ soldout = false
 [[eventData]]
 key = "2024-celctic-yuletide"
 title = "46th Annual Celtic Yuletide"
-description = ["Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh. returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 46th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!"]
+description = [
+  "Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh. returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 46th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!",
+]
 
 [[eventData.performances]]
 date = "12/8/2024"
@@ -140,7 +243,7 @@ description = [
   "The repertoire consists of pieces that will cover four of the common modes used in traditional music: Ionian, Dorian, Mixolydian, and Aolean, with the intent of de-mystifying the simplicity behind modes, which are all derived from the common diatonic scale. Each mode has a specific ‘character’ or mood it tends to convey through the music that emerges from it. For example, a minor mode (aolean) tends to sound somber or sad, whereas a major mode (ionian) tends to sound joyful, exuberant; granted these are very simplistic characterizations, which become more complex and subtle depending on each individual piece of music – and how it is played. A piece can also ‘modulate’ from one mode to another. Improvisation will be encouraged!",
   "There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend. We will have an ‘in-person’ fire circle on Saturday night, where we’ll share some music, songs and stories from Magical Strings and guests, and any students who can attend!",
   "All music and materials will be emailed to registrants in advance. Site-reading skills are not essential, but would be helpful. Don’t worry if you can’t digest all the material given – it will be taught in ‘bite- size’ pieces, and everyone will receive something of value. The sessions will also be recorded and made available to students after the camp is done. The most important thing is to have fun!",
-  "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!"
+  "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!",
 ]
 
 [[eventData.performances]]
@@ -251,7 +354,9 @@ soldout = false
 [[eventData]]
 key = "2024-march-concerts"
 title = "March Concerts with Irish Dancers"
-description = ["Join us in March with performances including the wonderful Kira and Monica Twitchell from the Tara Academy of Irish Dance!"]
+description = [
+  "Join us in March with performances including the wonderful Kira and Monica Twitchell from the Tara Academy of Irish Dance!",
+]
 
 [[eventData.performances]]
 date = "3/10/2024"
@@ -294,7 +399,9 @@ showAvailability = false
 [[eventData]]
 key = "2023-celctic-yuletide"
 title = "45th Annual Celtic Yuletide"
-description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 45th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 45th annual gala to experience joy and warmth in the dark of winter."]
+description = [
+  "Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 45th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 45th annual gala to experience joy and warmth in the dark of winter.",
+]
 
 [[eventData.performances]]
 date = "12/3/2023"
@@ -362,7 +469,7 @@ description = [
   'The repertoire will come from two harper-composers, Boulding and Carolan, who often added a jig version following a tune written for a particular patron. Carolan’s delightful “Michael O’Conner” is a good example, which Philip will teach for the first time, along with two of his own, “Barbara’s Cottage” (composed in Ireland for a patron) and “Celestial Winds” (composed for a wedding on a sailboat in the NW). New exercises will be given, with emphasis on arranging, accompaniment playing, and improvisation. ‘Airs in Pairs’ will explore how to extract a theme from a particular piece and morph it into another form.',
   'There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend. We will have an ‘in-person’ fire circle on Saturday night, where we’ll share some music, songs and stories from Magical Strings and guests, and any students who can attend!',
   'All music and materials will be emailed to registrants in advance. Site-reading skills are not essential, but would be helpful. Don’t worry if you can’t digest all the material given – it will be taught in ‘bite- size’ pieces, and everyone will receive something of value. The sessions will also be recorded and made available to students after the camp is done. The most important thing is to have fun!',
-  'The cost is $195 for the entire camp. Please send us an email if you would like to reserve a place: info@magicalstrings.com . Payment can be made either by check made out to Magical Strings, PO Box 1240, Olalla, WA 98359, or directly to our PayPal account at www.paypal.me/magicalstrings . When we receive your payment, we will send you a confirmation by email. Payments are due by July 21.'
+  'The cost is $195 for the entire camp. Please send us an email if you would like to reserve a place: info@magicalstrings.com . Payment can be made either by check made out to Magical Strings, PO Box 1240, Olalla, WA 98359, or directly to our PayPal account at www.paypal.me/magicalstrings . When we receive your payment, we will send you a confirmation by email. Payments are due by July 21.',
 ]
 performancesTitle = "Sessions"
 
@@ -474,7 +581,9 @@ soldout = false
 [[eventData]]
 key = "2023-march-concerts"
 title = "Magical Strings Duo with Irish Dancers"
-description = ['Don’t miss this opportunity to hear the dynamic Celtic duo Magical Strings in Concert, joined by lively Irish dancers from the Tara Academy. Described by the Washington Post as "sonically gorgeous," they will carry you to sublime realms with ancient airs and their own unique compositions, have you “dancing” to lively jigs and reels and share stories and selections from their newest CDs Fairy Wind and Lullaby for a Soul’s Journey.']
+description = [
+  'Don’t miss this opportunity to hear the dynamic Celtic duo Magical Strings in Concert, joined by lively Irish dancers from the Tara Academy. Described by the Washington Post as "sonically gorgeous," they will carry you to sublime realms with ancient airs and their own unique compositions, have you “dancing” to lively jigs and reels and share stories and selections from their newest CDs Fairy Wind and Lullaby for a Soul’s Journey.',
+]
 
 [[eventData.performances]]
 date = "3/11/2023"
@@ -514,7 +623,9 @@ soldout = false
 [[eventData]]
 key = "2022-celctic-yuletide"
 title = "44th Annual Celtic Yuletide"
-description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 44th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."]
+description = [
+  "Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re delighted that acclaimed Canadian fiddler and step dancer Jocelyn Pettit is able to join us once again for this 44th year, along with, as always, Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance. Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter.",
+]
 
 [[eventData.performances]]
 date = "12/4/2022"
@@ -577,7 +688,9 @@ soldout = false
 [[eventData]]
 key = "2022-st-patricks"
 title = "St. Patrick's Day Concerts with Irish Dancers"
-description = ["Get in the St. Patrick's day spirit with Irish music and dancing from the amazing Tara Academy!"]
+description = [
+  "Get in the St. Patrick's day spirit with Irish music and dancing from the amazing Tara Academy!",
+]
 
 [[eventData.performances]]
 date = "3/12/2022"
@@ -618,7 +731,10 @@ fair = false
 [[eventData]]
 key = "artist-sunday-2021"
 title = "Artist Sunday"
-description = ["Support local artists and creative businesses on Artists Sunday, November 28th, from noon to 6 pm, and give the gift of art this holiday season! The Historically Hip Artisan Market Pop-Up Shop in the Issaquah Depot Museum features rotating artists from around the country with special musical performances, including seasonal Magical Strings Celtic music at 5 pm.", "Artists Sunday is a national movement to encourage consumers to shop with local artists and craftspeople during the holiday season. Artists Sunday takes place the Sunday after Thanksgiving. It's like Black Friday or Small Business Saturday, but for the arts."]
+description = [
+  "Support local artists and creative businesses on Artists Sunday, November 28th, from noon to 6 pm, and give the gift of art this holiday season! The Historically Hip Artisan Market Pop-Up Shop in the Issaquah Depot Museum features rotating artists from around the country with special musical performances, including seasonal Magical Strings Celtic music at 5 pm.",
+  "Artists Sunday is a national movement to encourage consumers to shop with local artists and craftspeople during the holiday season. Artists Sunday takes place the Sunday after Thanksgiving. It's like Black Friday or Small Business Saturday, but for the arts.",
+]
 
 [[eventData.performances]]
 date = "11/28/2021"
@@ -635,7 +751,9 @@ fair = true
 [[eventData]]
 key = "yuletide2021"
 title = "43rd Annual Celtic Yuletide"
-description = ["Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re pleased that fiddler and piper Vienna Scheyer will join the band for the first time, along with our favorite Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance.  Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter."]
+description = [
+  "Celtic Yuletide is returning to the live stage, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion and sidekick act to his father’s juggling. We’re pleased that fiddler and piper Vienna Scheyer will join the band for the first time, along with our favorite Dublin guitarist/singer Colm McCarthaigh. Dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance return again this year adding their brilliance in rhythm and dance.  Become part of the Yuletide family for this 43rd annual gala to experience joy and warmth in the dark of winter.",
+]
 
 [[eventData.performances]]
 date = "12/5/2021"
@@ -763,8 +881,8 @@ performancesTitle = "Classes"
 description = [
   "We are happy to present our ‘Second Annual’ Virtual Harp Camp from Magic Hill, which will consist of several zoom sessions over a three-day period, Friday-Sunday.  Students who register will be able to attend all sessions.  At least a basic working knowledge of the harp and technique is advised, but anyone can participate.  There will be time for instruction, questions and practice.  The repertoire will span the range from one of Philip’s innovative arrangements from the valiha tradition of Madagascar, Malagasy Greeting; and a beautiful Jamaican lullaby from Philip’s childhood, to traditional dance tunes with emphasis on arranging and accompaniment playing, and another beautiful ancient air from the Bunting Collection of Ireland, among other things.  There will be one ‘warm-up’ zoom session in which students can get comfortable with the format, during which Philip will give an introduction and over-view of the weekend.",
   "We are planning to hold a ‘Virtual Fire Circle’ on Saturday evening as per Harp Camp tradition- be prepared to play and/or sing along with some of the tunes; and maybe even take a ‘virtual walk’ around Magic Hill!  You’ll also hear some music, songs and stories from Magical Strings and guests.",
-  "All music and materials will be emailed to registrants in advance.  Site-reading skills are not essential, but would be helpful.  Don’t worry if you can’t digest all the material given – it will be taught in ‘bite-size’ pieces, and everyone will receive something of value.  The most important thing is to have fun!",
-  "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!"
+  "All music and materials will be emailed to registrants in advance.  Site-reading skills are not essential, but would be helpful.  Don’t worry if you can’t digest all the material given – it will be taught in ‘bite- size’ pieces, and everyone will receive something of value.  The most important thing is to have fun!",
+  "There are a limited number of spaces available – so the sooner you sign up, the better to secure your place in the Virtual Magic Hill Summer Harp Camp!",
 ]
 
 [[eventData.performances]]
@@ -799,3 +917,4 @@ location = "Day 3"
 googleMaps = ""
 ticketInfo = "$195 for all 3 days. Contact us for details."
 soldout = false
+
