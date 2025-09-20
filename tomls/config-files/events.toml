@@ -3,6 +3,89 @@ name = "events"
 # =========================================================
 
 [[eventData]]
+key = "traditions-fair-trade-2025"
+title = "Traditions Fair Trade"
+description = [
+  "Celtic Harp, Hammered dulcimers, whistles, concertinas and more with the Soul Cafe Serving Dinner & Drinks!",
+]
+
+[[eventData.performances]]
+date = "10/11/2025"
+time = "7:00pm"
+venue = "Traditions Fair Trade"
+callToAction = "Learn More"
+ticketLink = "https://newtraditionsfairtrade.com/pages/events#calendar-7513213e-ad2b-4e4e-8078-d5ad718af253-event-m8z78b48"
+location = "Olympia, WA"
+googleMaps = "https://maps.app.goo.gl/Gpck15JJU6pR54bg7"
+ticketInfo = "$25 / $15 for students and those with low incomes"
+soldout = false
+
+[[eventData]]
+key = "concert-in-the-woods-2025"
+title = "Concerts in the Woods"
+description = [
+  "Music the way music should be enjoyed - in a comfortable, intimate setting.",
+]
+
+[[eventData.performances]]
+date = "11/1/2025"
+time = "3:00pm"
+venue = "Laurel B. Johnson Community Center"
+callToAction = "Call to Reserve"
+ticketLink = "https://coyleconcerts.com/upcomingshows/"
+location = "Coyle, WA"
+googleMaps = "https://maps.app.goo.gl/REuSK9x7ZtyQJuuw5"
+ticketInfo = ""
+soldout = false
+
+# =========================================================
+
+[[eventData]]
+key = "st-patricks-2025"
+title = "Magical Strings Celebrates St. Patrick's Day"
+description = [
+  "March is just around the corner, and we are looking forward to celebrating St. Patrick’s Day this year with three concerts featuring Irish dancers from the Tara Academy, along with fiddlers from our Yuletide retinue! Lively dance tunes and soulful airs will get your feet tapping and heart filled with the bright spirit of the Irish!",
+]
+
+[[eventData.performances]]
+date = "3/9/2025"
+time = "4:00pm"
+venue = "Thumbnail Theatre"
+callToAction = "Buy Tickets"
+ticketLink = "https://ticketpeak.co/tntt/events/10000-Magical%20Strings/30802"
+location = "Snohomish, WA"
+googleMaps = "https://g.page/thumbnail-theater-snohomish?share"
+ticketInfo = ""
+soldout = false
+fair = false
+
+[[eventData.performances]]
+date = "3/15/2025"
+time = "7:00pm"
+venue = "Olalla Community Club"
+callToAction = "Buy Tickets"
+ticketLink = "https://www.zeffy.com/en-US/ticketing/magical-strings-concert"
+location = "Olalla, WA"
+googleMaps = "https://goo.gl/maps/w8Jdz2pDB4Gca2iW8"
+ticketInfo = ""
+soldout = false
+fair = false
+
+[[eventData.performances]]
+date = "3/16/2025"
+time = "2:30pm"
+venue = "Kenyon Hall"
+callToAction = "Buy Tickets"
+ticketLink = "https://donorbox.org/events/721546/steps/choose_tickets"
+location = "Seattle, WA"
+googleMaps = "https://goo.gl/maps/Q5gqFLaY7WQeypWX8"
+ticketInfo = ""
+soldout = false
+fair = false
+
+# =========================================================
+
+[[eventData]]
 key = "2025-celtic-yuletide"
 title = "47th Annual Celtic Yuletide"
 description = [
@@ -59,92 +142,6 @@ googleMaps = "https://g.page/LincolnTheatreMVWA?share"
 ticketInfo = ""
 soldout = false
 
-# =========================================================
-
-
-[[eventData]]
-key = "traditions-fair-trade-2025"
-title = "Magical Strings"
-description = [
-  "Celtic Harp, Hammered dulcimers, whistles, concertinas and more",
-  "Soul Cafe Serving Dinner & Drinks",
-]
-
-[[eventData.performances]]
-date = "10/11/2025"
-time = "7:00pm"
-venue = "Traditions Fair Trade"
-callToAction = ""
-ticketLink = "https://newtraditionsfairtrade.com/pages/events#calendar-7513213e-ad2b-4e4e-8078-d5ad718af253-event-m8z78b48"
-location = "Olympia, WA"
-googleMaps = "https://maps.app.goo.gl/pK8rqwhv7BabuasF6"
-ticketInfo = "$25 / $15 for students & those w/low incomes"
-soldout = false
-
-[[eventData]]
-key = "concert-in-the-woods-2025"
-title = "Concerts in the Woods"
-description = [
-  "Music the way music should be enjoyed - in a comfortable, intimate setting.",
-  "Concert information: (360) 765-3449",
-  "Email:  info@coyleconcerts.com",
-]
-
-[[eventData.performances]]
-date = "11/1/2024"
-time = "3:00pm"
-venue = "Laurel B. Johnson Community Center"
-callToAction = "Call to Reserve"
-ticketLink = ""
-location = "Coyle, WA"
-googleMaps = "https://maps.app.goo.gl/REuSK9x7ZtyQJuuw5"
-ticketInfo = ""
-soldout = false
-
-# =========================================================
-
-[[eventData]]
-key = "st-patricks-2025"
-title = "Magical Strings Celebrates St. Patrick's Day"
-description = [
-  "March is just around the corner, and we are looking forward to celebrating St. Patrick’s Day this year with three concerts featuring Irish dancers from the Tara Academy, along with fiddlers from our Yuletide retinue! Lively dance tunes and soulful airs will get your feet tapping and heart filled with the bright spirit of the Irish!",
-]
-
-[[eventData.performances]]
-date = "3/9/2025"
-time = "4:00pm"
-venue = "Thumbnail Theatre"
-callToAction = "Buy Tickets"
-ticketLink = "https://ticketpeak.co/tntt/events/10000-Magical%20Strings/30802"
-location = "Snohomish, WA"
-googleMaps = "https://g.page/thumbnail-theater-snohomish?share"
-ticketInfo = ""
-soldout = false
-fair = false
-
-[[eventData.performances]]
-date = "3/15/2025"
-time = "7:00pm"
-venue = "Olalla Community Club"
-callToAction = "Buy Tickets"
-ticketLink = "https://www.zeffy.com/en-US/ticketing/magical-strings-concert"
-location = "Olalla, WA"
-googleMaps = "https://goo.gl/maps/w8Jdz2pDB4Gca2iW8"
-ticketInfo = ""
-soldout = false
-fair = false
-
-[[eventData.performances]]
-date = "3/16/2025"
-time = "2:30pm"
-venue = "Kenyon Hall"
-callToAction = "Buy Tickets"
-ticketLink = "https://donorbox.org/events/721546/steps/choose_tickets"
-location = "Seattle, WA"
-googleMaps = "https://goo.gl/maps/Q5gqFLaY7WQeypWX8"
-ticketInfo = ""
-soldout = false
-fair = false
 
 # =========================================================
 
