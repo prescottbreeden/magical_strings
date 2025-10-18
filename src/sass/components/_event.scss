@@ -17,7 +17,6 @@
   }
 
   &__img {
-    // max-width: 32%;
     height: auto;
     border-radius: 3px;
     flex: 1;
@@ -27,9 +26,88 @@
     }
   }
 
+  &__media {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    &-caption {
+      font-size: 1.6rem;
+      text-align: center;
+      color: $color-dark-green;
+    }
+
+    &-carousel {
+      width: 100%;
+      align-items: stretch;
+    }
+
+    &-frame {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      aspect-ratio: 16 / 9;
+      display: flex;
+      height: 50rem;
+      background-color: #333;
+
+      @include respond(phone) {
+        height: 28rem;
+      }
+    }
+
+    &-frame--single {
+      max-width: 62rem;
+    }
+
+    &-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    &-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    &-button {
+      background-color: $color-dark-green;
+      border: none;
+      color: $color-white;
+      padding: 0.6rem 1.6rem;
+      border-radius: 4px;
+      font-size: 1.4rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover,
+      &:focus {
+        background-color: darken($color-dark-green, 10%);
+        outline: none;
+      }
+    }
+
+    &-index {
+      font-size: 1.4rem;
+      color: $color-dark-green;
+    }
+  }
+
   &__performances {
     margin-top: $default-margin-top;
-    // box-shadow: $default-box-shadow;
 
     &-title {
       color: $color-dark-green;

@@ -89,16 +89,93 @@ fair = false
 key = "2025-celtic-yuletide"
 title = "47th Annual Celtic Yuletide"
 description = [
-  "Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh. returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 47th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!",
+  "Magical Strings’ Celtic Yuletide returns this holiday season, bringing generations together for a joyful celebration as the Boulding family and special guests weave their magic with lively and soulful music, storytelling, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion, and more are accompanied by their grown children on violin, cello, whistles, harmonium and harp. Grandson Haydn brings down the house with his dancing, percussion, and sidekick act to his father’s juggling. Our favorite Dublin guitarist/singer Colm McCarthaigh returns with dynamic percussionist Matt Jerrell and the award-winning Tara Academy of Irish Dance, adding their brilliance in rhythm and dance. Become part of the family for this 47th annual gala to experience joy and warmth in the dark of winter, and feel the magic and kindle the light of Yuletide!",
 ]
+
+# [[eventData.images]]
+# src = "slides/slide_1.jpg"
+# alt = "Pam Boulding playing hammered dulcimer while Philip Boulding speaks"
+# caption = "Philip Boulding shares an old story while Pam listens at the dulcimer, setting the tone for the evening. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_2.jpg"
+# alt = "Colm McCarthaigh playing acoustic guitar under warm stage lights"
+# caption = "Colm McCarthaigh’s guitar solo brings heart from Dublin to the Yuletide soundscape. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_3.jpg"
+# alt = "Rowan Williams performing Irish dance on stage"
+# caption = "Rowan Williams captivates the audience with traditional Irish step dance. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_4.jpg"
+# alt = "Hayden Williams and Cadence Jerrell, two young dancers, holding hands mid-step"
+# caption = "Young dancers Hayden Williams and Cadence Jerrell bring charm and joy to the Yuletide stage. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_5.jpg"
+# alt = "Hayden Williams playing glockenspiel in performance"
+# caption = "Hayden Williams adds a bright sparkle to the music on glockenspiel. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_0.jpg"
+# alt = "Philip Boulding playing guitar on stage, harp beside him"
+# caption = "Philip Boulding bringing summer warmth to a Celtic Yuletide. (2018)"
+
+
+# [[eventData.images]]
+# src = "slides/slide_6.jpg"
+# alt = "Matt Jerrell playing drums with baby Aislinn in his lap"
+# caption = "A heartwarming moment as Matt Jerrell keeps rhythm with baby Aislinn on stage. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_7.jpg"
+# alt = "Morgan Williams playing Irish whistle at microphone"
+# caption = "Morgan Williams’ whistle carries the soaring voice of Celtic tradition. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_8.jpg"
+# alt = "Philip Boulding playing Irish whistle beside harp"
+# caption = "Philip Boulding’s whistle solo evokes the winter landscape in sound. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_9.jpg"
+# alt = "Brittany Breeden leading the fiddle section with Geoff Williams and Jocelyn Pettit"
+# caption = "Brittany Breeden leads the fiddlers alongside Geoff Williams and Jocelyn Pettit in a lively reel. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_10.jpg"
+# alt = "Pam and Philip Boulding leading the audience processional with harp and dulcimer"
+# caption = "Pam and Philip Boulding lead the processional, inviting the audience into the Yuletide celebration. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_11.jpg"
+# alt = "Tara Academy Irish Dancers performing in traditional costumes"
+# caption = "The Tara Academy dancers light up the stage with vibrant Irish step dancing. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_12.jpg"
+# alt = "Group of Tara Academy Irish Dancers mid-performance"
+# caption = "Dancers from the Tara Academy showcase the athleticism and grace of Irish tradition. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_13.jpg"
+# alt = "Brenin Williams juggling during performance"
+# caption = "Brenin Williams delights the audience with a dazzling juggling routine. (2018)"
+
+# [[eventData.images]]
+# src = "slides/slide_14.jpg"
+# alt = "Prescott Breeden leading the audience in a holiday sing-along"
+# caption = "Prescott Breeden leads a joyful sing-along to close the Celtic Yuletide evening. (2018)"
 
 [[eventData.performances]]
 date = "12/7/2025"
 time = "3:00pm"
 venue = "Kent-Meridian Performing Arts Center"
-callToAction = "More Info Soon"
+callToAction = "Buy Tickets"
 location = "Kent, WA"
 googleMaps = "https://goo.gl/maps/yM929bW6NAXNCKL56"
+ticketLink = "https://www.kentwa.gov/SpotlightSeries"
 ticketInfo = ""
 soldout = false
 
@@ -106,9 +183,10 @@ soldout = false
 date = "12/14/2025"
 time = "3:00pm"
 venue = "Shorewood Theatre"
-callToAction = "More Info Soon"
+callToAction = "Buy Tickets"
 location = "Shoreline, WA"
 googleMaps = "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6"
+ticketLink = "https://www.ticketleap.events/tickets/emeraldcityarts/magical-strings-celtic-yuletide-108756050"
 ticketInfo = ""
 soldout = false
 
@@ -116,32 +194,55 @@ soldout = false
 date = "12/18/2025"
 time = "7:30pm"
 venue = "Snowy Owl Theater – Icicle Creek Center for the Arts"
-callToAction = "More Info Soon"
+callToAction = "Buy Tickets"
 location = "Leavenworth, WA"
 googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
 ticketInfo = ""
+ticketLink = "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000B9vn72AB"
 soldout = false
 
 [[eventData.performances]]
 date = "12/19/2025"
 time = "7:30pm"
 venue = "Snowy Owl Theater – Icicle Creek Center for the Arts"
-callToAction = "More Info Soon"
+callToAction = "Buy Tickets"
 location = "Leavenworth, WA"
 googleMaps = "https://goo.gl/maps/5M716JswStcqypqaA"
 ticketInfo = ""
+ticketLink = "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000B9vn72AB"
 soldout = false
 
 [[eventData.performances]]
 date = "12/21/2025"
 time = "3:00pm"
 venue = "The Historic Lincoln Theatre"
-callToAction = "More Info Soon"
+callToAction = "Buy Tickets"
 location = "Mount Vernon, WA"
 googleMaps = "https://g.page/LincolnTheatreMVWA?share"
 ticketInfo = ""
+ticketLink = "https://lincolntheatre.org/holiday-concert-magical-strings-celtic-yuletide-2025"
 soldout = false
 
+# =========================================================
+
+[[eventData]]
+key = "vashon-2025"
+title = "Irish Music Series by John Whelan and Jan Strolle"
+description = [
+  "Our first time performing as part of the Irish music series on Vashon Island by John Whelan and Jan Strolle, who we've come to know recently. John is All-Ireland champion accordion player, and one of the fun features of their concerts is to host an Irish music session after the show.",
+  "John will help lead us, and harp players are warmly welcomed to join in!",
+]
+
+[[eventData.performances]]
+date = "12/9/2025"
+time = "7:00pm"
+venue = ""
+callToAction = "Call to Reserve"
+location = "Vashon, WA"
+googleMaps = ""
+ticketInfo = "$25 donation at door - for reservations contact janstrolle@comcast.net - 206-228-0730"
+ticketLink = ""
+soldout = false
 
 # =========================================================
 
@@ -914,4 +1015,3 @@ location = "Day 3"
 googleMaps = ""
 ticketInfo = "$195 for all 3 days. Contact us for details."
 soldout = false
-

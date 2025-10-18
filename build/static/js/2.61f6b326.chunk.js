@@ -1550,12 +1550,13 @@
             !!Object(o.a)(e) ||
             (!!e &&
               'object' === typeof e &&
-                !Object(i.a)(e) &&
-                  (1 === e.nodeType
-                    ? !!e.length
-                    : 0 === e.length ||
-                      (e.length > 0 &&
-                        e.hasOwnProperty(0) && e.hasOwnProperty(e.length - 1))))
+              !Object(i.a)(e) &&
+              (1 === e.nodeType
+                ? !!e.length
+                : 0 === e.length ||
+                  (e.length > 0 &&
+                    e.hasOwnProperty(0) &&
+                    e.hasOwnProperty(e.length - 1))))
           );
         }),
         u = (function() {
@@ -3361,8 +3362,8 @@
           ? 0 === o.type
           : !r &&
             2 < t.length &&
-              ('o' === t[0] || 'O' === t[0]) &&
-              ('n' === t[1] || 'N' === t[1])) ||
+            ('o' === t[0] || 'O' === t[0]) &&
+            ('n' === t[1] || 'N' === t[1])) ||
           ((function(e, t, n, r) {
             if (
               null === t ||
@@ -5954,7 +5955,8 @@
           (a = u),
             (i.shared.pending = null),
             null !== (l = e.alternate) &&
-              null !== (l = l.updateQueue) && (l.baseQueue = u);
+              null !== (l = l.updateQueue) &&
+              (l.baseQueue = u);
         }
         if (null !== a) {
           l = a.next;
@@ -6098,7 +6100,8 @@
           ? e.shouldComponentUpdate(r, i, a)
           : !t.prototype ||
               !t.prototype.isPureReactComponent ||
-              !Wr(n, r) || !Wr(o, i);
+              !Wr(n, r) ||
+              !Wr(o, i);
       }
       function ki(e, t, n) {
         var r = !1,
@@ -10745,12 +10748,13 @@
             !!o(e) ||
             (!!e &&
               'object' === typeof e &&
-                !i(e) &&
-                  (1 === e.nodeType
-                    ? !!e.length
-                    : 0 === e.length ||
-                      (e.length > 0 &&
-                        e.hasOwnProperty(0) && e.hasOwnProperty(e.length - 1))))
+              !i(e) &&
+              (1 === e.nodeType
+                ? !!e.length
+                : 0 === e.length ||
+                  (e.length > 0 &&
+                    e.hasOwnProperty(0) &&
+                    e.hasOwnProperty(e.length - 1))))
           );
         });
       e.exports = a;

@@ -6,17 +6,13 @@ import {
   filterUpcomingEvents,
 } from '../utilities/event.utils';
 import Hero from '../components/Hero';
-// import eventsPhoto from './../assets/2022_yuletide.jpg';
-// import eventsPhoto from './../assets/Yuletide2021.png';
-import eventsPhoto from './../assets/duo_with_dancers_3.jpg';
-// import eventsPhoto from './../assets/philip_harps_opt.jpg';
-// import eventsPhoto from './../assets/thumbnail_theater_2023.jpg';
+// import eventsPhoto from './../assets/duo_with_dancers_3.jpg';
+import eventsPhoto from './../assets/ms_events.bmp';
 import { eventData } from './../constants/events.json';
 
 const showCovid = false;
 
 const Events = () => {
-  // -- local state --
   const [upcomingFilter, setUpcomingFilter] = React.useState(true);
   const [events, setEvents] = React.useState(() =>
     filterUpcomingEvents(eventData)
@@ -26,22 +22,19 @@ const Events = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  // setUpcomingEvents :: () -> unit
   const setUpcomingEvents = () => {
     R.pipe(filterUpcomingEvents, setEvents)(eventData);
     setUpcomingFilter(true);
   };
 
-  // setUpcomingEvents :: () -> unit
   const setPastEvents = () => {
     R.pipe(filterPastEvents, setEvents)(eventData);
     setUpcomingFilter(false);
   };
 
-  // computedEvents = Event[] | <p>
   const computedEvents =
     events.length > 0 ? (
-      R.map(Event, events)
+      events.map(event => <Event key={event.key} {...event} />)
     ) : (
       <p className="u-no-data">
         There are no upcoming events. Please check back soon for updates!
@@ -50,7 +43,6 @@ const Events = () => {
 
   const getModifiier = bool => (bool ? 'selected' : 'outline');
 
-  // removed for cleanliness
   const UpcomingEvents = () => (
     <button
       className={`filter__button--${getModifiier(upcomingFilter)}`}
@@ -60,7 +52,6 @@ const Events = () => {
     </button>
   );
 
-  // removed for cleanliness
   const PastEvents = () => (
     <button
       className={`filter__button--${getModifiier(!upcomingFilter)}`}
@@ -76,7 +67,7 @@ const Events = () => {
         <h2 className="page__title">Events & Tickets</h2>
         <Hero
           photo={eventsPhoto}
-          alt="Magical Strings band memebers at Yuletide in Leavenworth"
+          alt="Magical Strings band members at Yuletide in Leavenworth"
         />
         <div className="u-section-break--small" />
         {showCovid && (
