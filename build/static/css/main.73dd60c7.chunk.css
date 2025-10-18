@@ -215,6 +215,79 @@ body {
 .event__img:not(:last-child) {
   margin-right: 0.5rem;
 }
+.event__media {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+.event__media-caption {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #385600;
+}
+.event__media-carousel {
+  width: 100%;
+  align-items: stretch;
+}
+.event__media-frame {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  aspect-ratio: 16/9;
+  display: flex;
+  height: 50rem;
+  background-color: #333;
+}
+@media only screen and (max-width: 37.5em) {
+  .event__media-frame {
+    height: 28rem;
+  }
+}
+.event__media-frame--single {
+  max-width: 62rem;
+}
+.event__media-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.event__media-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.event__media-button {
+  background-color: #385600;
+  border: none;
+  color: #fff;
+  padding: 0.6rem 1.6rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.event__media-button:focus,
+.event__media-button:hover {
+  background-color: #172300;
+  outline: none;
+}
+.event__media-index {
+  font-size: 1.4rem;
+  color: #385600;
+}
 .event__performances {
   margin-top: 2rem;
 }
@@ -280,10 +353,48 @@ body {
 }
 .hero {
   width: 100%;
+  max-width: 100%;
+  height: 60rem;
+  background-color: #b68a60;
+  border-radius: 6px;
+  display: flex;
+}
+@media only screen and (min-width: 112.5em) {
+  .hero {
+    height: 70rem;
+  }
+}
+@media only screen and (max-width: 75em) {
+  .hero {
+    height: 60rem;
+  }
+}
+@media only screen and (max-width: 65.625em) {
+  .hero {
+    height: 50rem;
+  }
+}
+@media only screen and (max-width: 56.75em) {
+  .hero {
+    height: 40rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .hero {
+    height: 100%;
+  }
 }
 .hero__img {
   width: 100%;
   border-radius: 6px;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width: 37.5em) {
+  .hero__img {
+    object-fit: unset;
+  }
 }
 .hero__img--small {
   width: 50%;
@@ -439,7 +550,7 @@ body {
   justify-content: space-between;
 }
 .footer__text {
-  color: #c90;
+  color: #5a3825;
   letter-spacing: 1px;
   font-size: 2.3rem;
 }
@@ -833,4 +944,4 @@ body {
 .App-link {
   color: #09d3ac;
 }
-/*# sourceMappingURL=main.27b4d40a.chunk.css.map */
+/*# sourceMappingURL=main.73dd60c7.chunk.css.map */
