@@ -2,6 +2,70 @@
   "name": "events",
   "eventData": [
     {
+      "key": "2026-celtic-yuletide",
+      "title": "48th Annual Celtic Yuletide",
+      "description": [
+        "Celtic Yuletide returns again, bringing three generations together for a lively evening of Irish music and dance, storytelling, songs of the season, and stellar Irish step-dancing. Philip and Pam’s Celtic harps, dulcimers, concertina, accordion and more are accompanied by their children and guests on violin, cello, whistles, harmonium, guitar, vocals, and percussion.",
+        "Daughter Brittany, violinist with the Seattle Symphony, will appear with her parents at all the shows this year, along with her husband, Prescott, operatic baritone, who will add his vocal magic. Son Brenin, cellist and juggler, will bring his entire family, daughter Rowan (award-winning Irish dancer), her brother Haydn (champion Irish dancer and a brilliant percussionist) and award-winning dancers from the Tara Academy of Irish Dance, headed by Brenin’s wife Sara. Their son Morgan will be there, playing the organ and the tin whistle. Dublin guitarist/singer-songwriter Colm McCarthaigh will be there along with dynamic percussionist Matt Jerrell and his whole family, young dancers with their family’s Tara Academy. Become part of Magical Strings Yuletide to experience joy and warmth, and shine a light into the darkness of winter!"
+      ],
+      "performances": [
+        {
+          "date": "12/6/2026",
+          "time": "3:00pm",
+          "venue": "Kent-Meridian Performing Arts Center",
+          "callToAction": "Buy Tickets",
+          "location": "Kent, WA",
+          "googleMaps": "https://goo.gl/maps/yM929bW6NAXNCKL56",
+          "ticketLink": "https://app.arts-people.com/index.php?ticketing=kent",
+          "ticketInfo": "",
+          "soldout": false
+        },
+        {
+          "date": "12/13/2026",
+          "time": "3:00pm",
+          "venue": "Shorewood Theatre",
+          "callToAction": "Coming Soon",
+          "location": "Shoreline, WA",
+          "googleMaps": "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6",
+          "ticketInfo": "Produced by the Tara Academy; featuring loads of amazing Irish dancers! (tentative)",
+          "soldout": false
+        },
+        {
+          "date": "12/17/2026",
+          "time": "7:00pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000KKGmf2AH",
+          "soldout": false
+        },
+        {
+          "date": "12/18/2026",
+          "time": "7:00pm",
+          "venue": "Snowy Owl Theater – Icicle Creek Center for the Arts",
+          "callToAction": "Buy Tickets",
+          "location": "Leavenworth, WA",
+          "googleMaps": "https://goo.gl/maps/5M716JswStcqypqaA",
+          "ticketInfo": "",
+          "ticketLink": "https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000KKGmf2AH",
+          "soldout": false
+        },
+        {
+          "date": "12/20/2026",
+          "time": "3:00pm",
+          "venue": "The Historic Lincoln Theatre",
+          "callToAction": "Buy Tickets",
+          "location": "Mount Vernon, WA",
+          "googleMaps": "https://g.page/LincolnTheatreMVWA?share",
+          "ticketInfo": "",
+          "ticketLink": "https://lincolntheatre.org/holiday-concert-magical-strings-celtic-yuletide-2026",
+          "soldout": false
+        }
+      ]
+    },
+    {
       "key": "traditions-fair-trade-2025",
       "title": "Traditions Fair Trade",
       "description": [

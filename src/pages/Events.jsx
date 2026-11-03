@@ -6,8 +6,8 @@ import {
   filterUpcomingEvents,
 } from '../utilities/event.utils';
 import Hero from '../components/Hero';
-// import eventsPhoto from './../assets/duo_with_dancers_3.jpg';
-import eventsPhoto from './../assets/ms_events.bmp';
+import eventsPhoto from './../assets/2022_yuletide.jpg';
+// import eventsPhoto from './../assets/ms_events.bmp';
 import { eventData } from './../constants/events.json';
 
 const showCovid = false;

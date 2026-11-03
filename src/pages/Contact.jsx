@@ -9,9 +9,6 @@ const Contact = (props) => {
         <h2 className="page__title">Contact Us</h2>
         <div className="performance u-padding">
           <p className="contact__info">
-            <a href="tel:2538573716">(253) 857-3716</a>
-          </p>
-          <p className="contact__info">
             <a href="mailto: info@magicalstrings.com">
               info@magicalstrings.com
             </a>

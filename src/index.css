@@ -301,7 +301,7 @@ body {
   transition: background-color 0.2s ease;
 }
 .event__media-button:hover, .event__media-button:focus {
-  background-color: #172300;
+  background-color: rgb(8.9375284998%, 13.7254901961%, 0%);
   outline: none;
 }
 .event__media-index {
