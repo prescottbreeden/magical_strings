@@ -8,6 +8,8 @@
   background-color: $color-warm-oak;
   border-radius: 6px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   @include respond(big-desktop) {
     height: 70rem;

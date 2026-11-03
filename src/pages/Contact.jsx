@@ -15,7 +15,7 @@ const Contact = (props) => {
           </p>
         </div>
         <div className="contact__hero">
-          <Hero photo={PP} small />
+          <Hero photo={PP} alt="Pam and Philip Boulding" />
         </div>
       </section>
     </>

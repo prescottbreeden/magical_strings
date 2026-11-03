@@ -1,28 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Magical Strings
 
-## Available Scripts
+Website for [Magical Strings](https://magicalstrings.com), the Celtic music ensemble founded by Philip and Pam Boulding in 1978. Built with React and Vite.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+```bash
+yarn install
+yarn start
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The dev server runs at [http://localhost:5173](http://localhost:5173).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Scripts
 
-### `yarn test`
+| Command             | Description                                               |
+| ------------------- | --------------------------------------------------------- |
+| `yarn start`        | Start the Vite dev server                                 |
+| `yarn build`        | Build production assets to `build/`                       |
+| `yarn test`         | Run Vitest test suites                                    |
+| `yarn watch:sass`   | Watch `src/sass/main.scss` and compile to `src/index.css` |
+| `yarn compile:sass` | One-time SASS compile                                     |
+| `yarn update-data`  | Rebuild JSON data files from TOML sources                 |
+| `yarn prettier`     | Format all JS, JSX, JSON, and MD files                    |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `yarn build`
+```
+src/
+├── assets/          # Images and static media
+├── components/      # Reusable UI components
+├── constants/       # Generated JSON data (from TOML)
+├── layouts/         # Page layout wrappers (Header, Footer)
+├── pages/           # Route screens (Events, Albums, etc.)
+├── sass/            # SCSS source files
+└── utilities/       # Helper functions
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+tomls/
+├── config-files/    # TOML source data (events, albums, classes)
+├── create-data.js   # JSON output writer
+├── helpers.js       # TOML parsing utilities
+└── update-json.js   # Entry point for data generation
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Updating Event Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Event listings, album data, and class info are managed as TOML files in `tomls/config-files/`. After editing a `.toml` file, regenerate the JSON:
+
+```bash
+yarn update-data
+```
+
+Both the TOML source and the generated JSON in `src/constants/` should be committed together.
+
+## Styles
+
+Styles are authored in SCSS under `src/sass/` and compiled to `src/index.css`. To watch for changes during development:
+
+```bash
+yarn watch:sass
+```
