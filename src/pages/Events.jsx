@@ -34,14 +34,14 @@ const Events = () => {
 
   const computedEvents =
     events.length > 0 ? (
-      events.map(event => <Event key={event.key} {...event} />)
+      events.map((event) => <Event key={event.key} {...event} />)
     ) : (
       <p className="u-no-data">
         There are no upcoming events. Please check back soon for updates!
       </p>
     );
 
-  const getModifiier = bool => (bool ? 'selected' : 'outline');
+  const getModifiier = (bool) => (bool ? 'selected' : 'outline');
 
   const UpcomingEvents = () => (
     <button

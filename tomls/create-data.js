@@ -5,7 +5,7 @@ const { entityName } = require('./helpers');
 const { OUTPUT_DIR } = require('./file-paths');
 
 // buildData :: object -> string
-const buildData = data => {
+const buildData = (data) => {
   return JSON.stringify(data);
 };
 
@@ -16,7 +16,7 @@ const createData = map(
       compose(R.concat(R.__, '.json'), R.concat(OUTPUT_DIR), entityName),
       buildData,
     ]),
-    e => trace('errored', e)
+    (e) => trace('errored', e)
   )
 );
 

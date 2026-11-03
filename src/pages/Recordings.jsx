@@ -9,7 +9,7 @@ const Recordings = () => {
       <section className="event">
         <h2 className="page__title">Recordings</h2>
         <div className="recordings">
-          {map(album => {
+          {map((album) => {
             const get = getProp(album);
             return (
               <div className="album" key={get('title')}>

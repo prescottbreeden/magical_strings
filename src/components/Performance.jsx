@@ -99,7 +99,7 @@ const CallToAction = cond([
  *
  * @param {AvailabilityProps} props - The props for the component.
  */
-const Availability = props =>
+const Availability = (props) =>
   props.fair ? null : props.soldout ? (
     <p className="performance__soldout">Sold-out</p>
   ) : (
@@ -122,7 +122,7 @@ const Availability = props =>
  *
  * @param {PerformanceProps} props - The props for the component.
  */
-const Performance = props => {
+const Performance = (props) => {
   const date = generateDate(props.date, props.time);
 
   return (

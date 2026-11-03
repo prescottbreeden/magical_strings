@@ -13,7 +13,7 @@ import React from 'react';
  * @param {string} props.alt - Alternative text for the hero image.
  * @param {boolean} [props.small=false] - Indicates if the small variant of the hero image should be used.
  */
-const Hero = props => {
+const Hero = (props) => {
   return (
     <div className="hero">
       {props.small ? (

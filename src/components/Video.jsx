@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Video = props => {
+const Video = (props) => {
   const { src, title } = props;
 
   return (

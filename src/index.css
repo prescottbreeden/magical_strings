@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 *,
 *::after,
 *::before {
@@ -37,7 +37,7 @@ a:hover {
 
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media only screen and (max-width: 75em) {
   html {
@@ -300,8 +300,7 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
-.event__media-button:hover,
-.event__media-button:focus {
+.event__media-button:hover, .event__media-button:focus {
   background-color: #172300;
   outline: none;
 }

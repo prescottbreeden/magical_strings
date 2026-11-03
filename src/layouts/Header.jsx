@@ -15,27 +15,39 @@ const Header = () => {
         <img className="header__logo" src={logo} alt="logo" />
       </NavLink>
       <nav className="nav">
-        <NavLink className="nav__link" to="/events" activeStyle={activeStyles}>
+        <NavLink
+          className="nav__link"
+          to="/events"
+          style={({ isActive }) => (isActive ? activeStyles : undefined)}
+        >
           Events
         </NavLink>
         <NavLink
           className="nav__link"
           to="/recordings"
-          activeStyle={activeStyles}
+          style={({ isActive }) => (isActive ? activeStyles : undefined)}
         >
           Albums
         </NavLink>
         <NavLink
           className="nav__link"
           to="/harpshop"
-          activeStyle={activeStyles}
+          style={({ isActive }) => (isActive ? activeStyles : undefined)}
         >
           Shop
         </NavLink>
-        <NavLink className="nav__link" to="/classes" activeStyle={activeStyles}>
+        <NavLink
+          className="nav__link"
+          to="/classes"
+          style={({ isActive }) => (isActive ? activeStyles : undefined)}
+        >
           Classes
         </NavLink>
-        <NavLink className="nav__link" to="/contact" activeStyle={activeStyles}>
+        <NavLink
+          className="nav__link"
+          to="/contact"
+          style={({ isActive }) => (isActive ? activeStyles : undefined)}
+        >
           Contact
         </NavLink>
       </nav>

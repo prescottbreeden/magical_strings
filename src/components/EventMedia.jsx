@@ -8,7 +8,7 @@ const assetsContext = (() => {
   }
 })();
 
-const resolveSrc = src => {
+const resolveSrc = (src) => {
   if (!src) return src;
   if (/^(https?:)?\//.test(src)) {
     return src;
@@ -17,7 +17,7 @@ const resolveSrc = src => {
   if (assetsContext) {
     try {
       const mod = assetsContext(`./${src}`);
-      return typeof mod === 'string' ? mod : mod?.default ?? src;
+      return typeof mod === 'string' ? mod : (mod?.default ?? src);
     } catch (error) {
       console.warn('Missing event media asset', src);
     }
@@ -63,8 +63,8 @@ const EventMedia = ({ images = [] }) => {
   }
 
   const showPrev = () =>
-    setIndex(current => (current === 0 ? images.length - 1 : current - 1));
-  const showNext = () => setIndex(current => (current + 1) % images.length);
+    setIndex((current) => (current === 0 ? images.length - 1 : current - 1));
+  const showNext = () => setIndex((current) => (current + 1) % images.length);
 
   const currentImage = images[index] ?? defaultMetadata;
   const resolvedSrc = resolveSrc(currentImage.src);

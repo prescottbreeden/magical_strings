@@ -2,7 +2,7 @@ import Hero from '../components/Hero';
 import PP from '../assets/ms_events.jpg';
 import React from 'react';
 
-const Contact = props => {
+const Contact = (props) => {
   return (
     <>
       <section className="event">

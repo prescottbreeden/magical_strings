@@ -11,9 +11,9 @@
 ## Build, Test, and Development Commands
 
 - `yarn install` bootstraps dependencies; rerun after pulling lockfile updates.
-- `yarn start` launches `react-scripts` dev server with HashRouter paths.
+- `yarn start` launches `vite` dev server with HashRouter paths.
 - `yarn build` emits production assets into `build/`.
-- `yarn test` runs Jest in watch mode; press `a` for all suites in CI-style runs.
+- `yarn test` runs Vitest test suites.
 - `yarn watch:sass` watches `src/sass/main.scss` and regenerates `src/index.css`.
 - `yarn update-data` rebuilds JSON payloads from the TOML sources.
 
@@ -25,7 +25,7 @@
 
 ## Testing Guidelines
 
-- Prefer Jest with React Testing Library helpers already bundled via `react-scripts test`.
+- Prefer Vitest with React Testing Library helpers (`yarn test`).
 - Mirror component names (`Header.test.js`) and focus on rendering plus behavior regressions.
 - For coverage snapshots use `yarn test --coverage`; keep UI-critical paths above 80% statements.
 

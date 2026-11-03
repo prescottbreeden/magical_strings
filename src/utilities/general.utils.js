@@ -1,10 +1,7 @@
 import { converge, curry, defaultTo, reduce } from 'ramda';
 
 // *randomString* :: () -> string
-export const randomString = () =>
-  Math.random()
-    .toString(36)
-    .substring(7);
+export const randomString = () => Math.random().toString(36).substring(7);
 
 // *trace* :: string -> a -> a
 export const trace = curry((txt, x) => {
@@ -14,7 +11,10 @@ export const trace = curry((txt, x) => {
 
 // less fussy version of compose
 // compose :: ((a -> b), (b -> c),  ..., (y -> z)) -> a -> z
-export const compose = (...fns) => x => fns.reduceRight((y, f) => f(y), x);
+export const compose =
+  (...fns) =>
+  (x) =>
+    fns.reduceRight((y, f) => f(y), x);
 
 // prop :: a -> obj -> obj[a] | undefined
 export const prop = curry((a, obj) => (obj ? obj[a] : undefined));
@@ -22,7 +22,7 @@ export const prop = curry((a, obj) => (obj ? obj[a] : undefined));
 // set :: string a -> { [string]: a }
 export const set = curry((name, value) => ({ [name]: value }));
 
-export const getProp = a => b => prop(b, a);
+export const getProp = (a) => (b) => prop(b, a);
 
 // handleChangeEvent :: event -> obj
 export const handleChangeEvent = compose(
@@ -32,14 +32,14 @@ export const handleChangeEvent = compose(
 
 // replaceItem :: [a] -> a -> [a]
 export const replaceItem = curry((list, b) => {
-  return list.map(a => (a.id === b.id ? b : a));
+  return list.map((a) => (a.id === b.id ? b : a));
 });
 
 // all :: [bool] -> bool
 export const all = reduce((a, b) => (a ? b : a), true);
 
 // formatPhone :: string -> string
-export const formatPhone = phone => {
+export const formatPhone = (phone) => {
   const digits = phone.replace(/\D/g, '');
   const match = digits.match(/^(\d{3})(\d{3})(\d{4})$/);
   if (match) {
@@ -62,7 +62,7 @@ export const deepEqual = (a, b) => {
 };
 
 // formatMoney :: number | bigint -> string
-export const formatMoney = money => {
+export const formatMoney = (money) => {
   return Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
