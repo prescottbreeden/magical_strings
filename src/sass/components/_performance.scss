@@ -29,6 +29,33 @@
     margin: 0 1rem;
   }
 
+  &__note {
+    margin-left: 0.6rem;
+    color: $color-dark-green;
+    cursor: help;
+    font-size: 1.8rem;
+    position: relative;
+
+    &:hover::after {
+      content: attr(title);
+      position: absolute;
+      left: 50%;
+      bottom: 125%;
+      transform: translateX(-50%);
+      background-color: $color-black;
+      color: $color-white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 4px;
+      font-size: 1.4rem;
+      white-space: normal;
+      width: 28rem;
+      z-index: 10;
+      text-align: center;
+      line-height: 1.4;
+      box-shadow: $default-box-shadow;
+    }
+  }
+
   &__details {
     width: 50% !important;
     display: flex;

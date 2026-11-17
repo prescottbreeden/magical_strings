@@ -460,6 +460,31 @@ body {
 .performance--directions {
   margin: 0 1rem;
 }
+.performance__note {
+  margin-left: 0.6rem;
+  color: #385600;
+  cursor: help;
+  font-size: 1.8rem;
+  position: relative;
+}
+.performance__note:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 50%;
+  bottom: 125%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  white-space: normal;
+  width: 28rem;
+  z-index: 10;
+  text-align: center;
+  line-height: 1.4;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
 .performance__details {
   width: 50% !important;
   display: flex;

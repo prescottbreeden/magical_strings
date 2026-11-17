@@ -23,11 +23,13 @@
         {
           "date": "12/13/2026",
           "time": "3:00pm",
-          "venue": "Shorewood Theatre",
-          "callToAction": "Coming Soon",
-          "location": "Shoreline, WA",
-          "googleMaps": "https://maps.app.goo.gl/kpvG4nPmMG5ZK5hE6",
-          "ticketInfo": "Produced by the Tara Academy; featuring loads of amazing Irish dancers! (tentative)",
+          "venue": "Pigott Auditorium, Seattle University",
+          "callToAction": "Buy Tickets",
+          "location": "Seattle, WA",
+          "googleMaps": "https://maps.app.goo.gl/zd6C9sfNXMCtd3iM9",
+          "ticketLink": "https://events.ticketleap.com/tickets/emeraldcityarts/magical-strings-celtic-yuletide-1308502886",
+          "ticketInfo": "",
+          "note": "This concert is being produced by the Tara Academy – loads of amazing Irish dancers! Plus, it's the first time Celtic Yuletide has been back in Seattle for several years – you won't want to miss it!",
           "soldout": false
         },
         {

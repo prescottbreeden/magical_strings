@@ -145,6 +145,11 @@ const Performance = (props) => {
                 (map)
               </a>
             )}
+            {props.note && (
+              <span className="performance__note" title={props.note}>
+                &#9432;
+              </span>
+            )}
           </p>
           <p className="performance__venue-details">{props.ticketInfo}</p>
           {props.showAvailability && props.ticketLink && (
